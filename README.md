@@ -21,7 +21,7 @@ Open http://localhost:3000. For production locally, run `npm run build` followed
 - Accent-insensitive search, Fuse.js typo suggestions, keyboard autocomplete, Ctrl/Cmd+K, definition search, `*` and `?` wildcards, pagination, and combined region/register/type/A–Z filters. Wildcards use RE2JS to avoid regex backtracking.
 - Definitions, source examples, linked synonyms, antonyms, original regional labels, etymology and English equivalents where present. Every remaining source field is available too.
 - Previous/next entries, date-based expression of the day, curated discovery, regional browsing, share links, print layout, and browser-local saved entries.
-- Browser speech synthesis with PT-PT/PT-BR voice selection. This changes speech only, not the corpus spelling.
+- Browser speech synthesis explicitly selects a voice matching PT-PT or PT-BR. If that exact variant is unavailable on the device, the player explains this instead of silently substituting another accent. This changes speech only, not the corpus spelling.
 - Portuguese verb conjugation with [ablaut](https://github.com/ablaut-dev/ablaut): indicative, subjunctive, imperative, personal infinitive, gerund, participle, and compound forms. WebAssembly stays on the server.
 - Persistent community usage votes and a private contribution queue with editorial approval through a CLI. Votes are deduplicated per browser identifier; submissions are limited to five per identifier per day. These are lightweight abuse controls, not identity verification.
 - Public paginated JSON search/entry API, health endpoint, sitemap, robots.txt, entry metadata, and DefinedTerm structured data.

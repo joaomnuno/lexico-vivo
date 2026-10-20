@@ -90,6 +90,7 @@ export function Pronounce({ word }: { word: string }) {
   const [speaking, setSpeaking] = useState(false);
   const [message, setMessage] = useState('');
   useEffect(() => {
+    window.speechSynthesis?.getVoices();
     return () => {
       window.speechSynthesis?.cancel();
     };
@@ -105,7 +106,20 @@ export function Pronounce({ word }: { word: string }) {
             setMessage('Este navegador não suporta leitura em voz alta.');
             return;
           }
+          const selectedVoice = window.speechSynthesis
+            .getVoices()
+            .find(
+              (available) =>
+                available.lang.replaceAll('_', '-').toLowerCase() === voice.toLowerCase(),
+            );
+          if (!selectedVoice) {
+            setMessage(
+              `A voz ${voice} não está disponível neste navegador. Instala uma voz dessa variante no dispositivo ou escolhe outra variante.`,
+            );
+            return;
+          }
           const utterance = new SpeechSynthesisUtterance(word);
+          utterance.voice = selectedVoice;
           utterance.lang = voice;
           utterance.rate = 0.85;
           utterance.onend = () => setSpeaking(false);
