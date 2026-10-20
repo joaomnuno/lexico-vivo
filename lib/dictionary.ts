@@ -2,6 +2,7 @@ import Fuse from 'fuse.js';
 import { RE2JS } from 're2js';
 import { db } from './db';
 import { normalize, regions } from './normalize';
+import { selectDiscovery, type DiscoveryOptions } from './discovery';
 
 export type Entry = {
   id: number;
@@ -108,18 +109,9 @@ export async function search(input: SearchParams, pageSize = 18) {
 export async function findEntry(slug: string) {
   return (await corpus()).entries.find((e) => e.slug === slug);
 }
-export async function featured() {
+export async function featured(options: DiscoveryOptions = {}) {
   const { entries } = await corpus();
-  return [
-    'estar com os azeites',
-    'desenrascanço',
-    'chico-esperto',
-    'dar de frosques',
-    'bater a bota',
-    'armar-se aos cágados',
-  ]
-    .map((word) => entries.find((e) => e.headword === word))
-    .filter((e): e is Entry => !!e);
+  return selectDiscovery(entries, options);
 }
 export async function daily() {
   const { entries } = await corpus();

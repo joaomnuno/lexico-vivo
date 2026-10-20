@@ -1,5 +1,7 @@
 # Editorial direction
 
+Illustration art direction and the reusable master prompt are in [visual-style-guide.md](visual-style-guide.md). The original generation prompts, reference mappings, and asset dimensions are recorded in [image-prompts.md](image-prompts.md).
+
 The October 2026 refresh puts dictionary lookup first and reduces repeated project messaging.
 
 ## References reviewed
@@ -18,6 +20,9 @@ These informed the information hierarchy; Léxico Vivo retains its own warm pape
 - Navigation covers distinct destinations. Expression type and register remain dictionary filters.
 - Use short, descriptive section headings without a second slogan above each one.
 - Keep source attribution visible and link to the full biography and editorial policy.
-- Shared colors and components live in `app/globals.css`; homepage composition lives in `app/home.css`.
+- Base colors and components live in `app/globals.css`; the shared botanical layout, navigation, and editorial pages live in `app/editorial.css`; homepage composition lives in `app/home.css`.
+- Every route shares the compact desktop navigation. Pages without their own search retain a compact header search; narrower screens stack search and navigation without hiding either.
+- Regiões, Em alta, and O projeto use the shared `PageHero` composition with botanical artwork and live HTML text. The village and desk illustrations are decorative, not documentary images.
+- The daily discovery uses “Uma palavra puxa outra” and “A descoberta de hoje”, with a feather and layered paper styling instead of a colored top border.
 
 Updated desktop and mobile captures are in `docs/screenshots/`.

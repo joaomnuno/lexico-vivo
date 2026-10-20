@@ -8,6 +8,7 @@ import '@fontsource/plus-jakarta-sans/latin-500.css';
 import '@fontsource/plus-jakarta-sans/latin-600.css';
 import '@fontsource/plus-jakarta-sans/latin-700.css';
 import './globals.css';
+import './editorial.css';
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 

@@ -1,0 +1,11 @@
+version = 1
+
+[project]
+context = 'coolify-lx'
+project = 'lexico-vivo'
+environment = 'production'
+application = 'lexico-vivo'
+root = '.'
+project_uuid = 'rj36s5b2doihzgzh4poxz5mo'
+environment_uuid = 'uzmwf41noe8wpat7qj4ej2k8'
+application_uuid = 'hkyvhaxotb4b86jbhqttsa8m'

@@ -1,10 +1,14 @@
 # Deploy to Coolify
 
-The project uses vinext's Node production server, not a Cloudflare target. This follows the [vinext Node deployment documentation](https://github.com/cloudflare/vinext). Coolship was inspected locally with `--help`, `init --help`, and `doctor --format json`; the installed CLI is authenticated, but this repository has no application binding. No remote resources were created or deployed.
+The project uses vinext's Node production server, not a Cloudflare target. This follows the [vinext Node deployment documentation](https://github.com/cloudflare/vinext). The repository is linked through `coolship.toml` to the production Léxico Vivo application; use `cs` to inspect and deploy it.
 
 ## Recommended: Docker Compose
 
 The checked-in `compose.yaml` builds the Dockerfile and persists SQLite in `lexico-data`. In Coolify, use the Docker Compose build pack, select `compose.yaml`, and assign a domain to the `lexico` service on port **3000**.
+
+The service exposes container port 3000 without publishing a host port. Coolify's proxy routes public HTTPS requests to that internal port. Do not add `ports: ['3000:3000']`: it bypasses proxy routing and conflicts with other services on the host. Configure the service domain as `lexico=https://lexico.itrocas.com:3000`; the public URL remains `https://lexico.itrocas.com`. See [Coolify's Compose networking guidance](https://coolify.io/docs/applications/builds/docker-compose).
+
+For local Docker-only development, publish a loopback port explicitly with `docker compose run --rm -p 127.0.0.1:3000:3000 lexico`, or use `npm run dev`.
 
 Set `NEXT_PUBLIC_SITE_URL` to the canonical HTTPS origin, for example `https://lexico.example.com`. This value is read on the server at runtime for metadata and sitemap URLs. Keep `DATABASE_URL=file:/app/storage/lexico.db`.
 

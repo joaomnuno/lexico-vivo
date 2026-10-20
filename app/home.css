@@ -1,14 +1,14 @@
 .home-intro {
   border-bottom: 1px solid var(--line);
-  background: var(--linen);
+  background: var(--paper) url('/images/dictionary-botanical.png') center / cover no-repeat;
 }
 .home-intro-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
   align-items: center;
   gap: 70px;
-  padding-top: 54px;
-  padding-bottom: 54px;
+  padding-top: 68px;
+  padding-bottom: 68px;
 }
 .home-lookup .eyebrow {
   font-size: 11px;
@@ -53,11 +53,13 @@
 }
 .word-of-day {
   padding: 28px;
-  background: var(--white);
+  background: #fffdf7f5;
   border: 1px solid var(--line);
-  border-top: 3px solid var(--caramel);
-  border-radius: 4px;
-  box-shadow: 0 8px 20px #3b271e05;
+  border-radius: 3px 20px 20px 3px;
+  box-shadow:
+    5px 5px 0 -1px #f1e7d8,
+    5px 5px 0 0 #dfd3c3,
+    0 12px 40px #3b271e0c;
   min-width: 0;
 }
 .word-of-day-label {
@@ -66,9 +68,20 @@
   align-items: center;
   gap: 12px;
 }
-.word-of-day-label .eyebrow {
+.daily-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: italic 14px/1.5 var(--serif);
+  color: #626348;
+}
+.daily-caption {
+  display: block;
+  margin-top: 28px;
   font-size: 10px;
-  letter-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: var(--muted);
 }
 .word-of-day time {
   font-size: 12px;
@@ -78,7 +91,7 @@
 .word-of-day h2 {
   font-size: 30px;
   line-height: 1.4;
-  margin: 24px 0 14px;
+  margin: 10px 0 14px;
   overflow-wrap: anywhere;
 }
 .word-of-day > p {
@@ -167,6 +180,10 @@
   }
 }
 @media (max-width: 800px) {
+  .home-intro {
+    background-image: url('/images/botanical-mobile.webp');
+    background-position: right bottom;
+  }
   .home-intro-grid {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -177,7 +194,7 @@
     max-width: 520px;
   }
   .word-of-day h2 {
-    margin-top: 18px;
+    margin-top: 10px;
   }
   .discovery-body .card-grid {
     grid-template-columns: 1fr;

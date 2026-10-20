@@ -1,4 +1,4 @@
-import { ArrowRight, MapPin, Sparkles, Flame } from 'lucide-react';
+import { ArrowRight, MapPin, Feather, Flame } from 'lucide-react';
 import { entryUrl, type Entry } from '../lib/dictionary';
 import { SaveButton, Contribution } from './interactive';
 import { HotList } from './hot-list';
@@ -8,7 +8,7 @@ export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSea
   return (
     <article className="entry-card">
       <div className="entry-card-top">
-        <span className="tag">
+        <span className={`tag${entry.register === 'coloquial' ? ' sage' : ''}`}>
           {entry.register || (entry.kind === 'expression' ? 'Expressão popular' : 'Léxico popular')}
         </span>
         <SaveButton entry={entry} />
@@ -50,7 +50,7 @@ export function Sidebar({ day }: { day: Entry }) {
       <section className="side-card daily-side">
         <div className="section-mini">
           <span>
-            <Sparkles size={14} /> Expressão do dia
+            <Feather size={14} aria-hidden="true" /> A descoberta de hoje
           </span>
           <span>
             {new Intl.DateTimeFormat('pt-PT', {

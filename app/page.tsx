@@ -1,22 +1,26 @@
 import './home.css';
-import { ArrowRight, MapPin } from 'lucide-react';
-import { daily, entryUrl, featured, formatNumber, stats } from '../lib/dictionary';
+import { ArrowRight, MapPin, Feather } from 'lucide-react';
+import { daily, entryUrl, formatNumber, stats } from '../lib/dictionary';
 import { Search } from '../components/search';
 import { AuthorTribute } from '../components/author-tribute';
-import { EntryCard, JoinBanner } from '../components/cards';
+import { JoinBanner } from '../components/cards';
+import { DiscoverySection } from '../components/discovery-section';
 import { SaveButton } from '../components/interactive';
 import { HotList } from '../components/hot-list';
 
 export const dynamic = 'force-dynamic';
 export default async function Home() {
-  const [numbers, day, picks] = await Promise.all([stats(), daily(), featured()]);
+  const [numbers, day] = await Promise.all([stats(), daily()]);
   return (
     <>
       <section className="home-intro">
         <div className="container home-intro-grid">
           <div className="home-lookup">
             <span className="eyebrow">Calão · Expressões · Falares</span>
-            <h1>A língua como ela se fala.</h1>
+            <h1>
+              A língua como <br />
+              ela se fala.
+            </h1>
             <p>
               {formatNumber(numbers.total)} palavras e expressões do português, à tua descoberta.
             </p>
@@ -32,7 +36,9 @@ export default async function Home() {
           </div>
           <article className="word-of-day" aria-labelledby="daily-title">
             <div className="word-of-day-label">
-              <span className="eyebrow">Expressão do dia</span>
+              <span className="daily-kicker">
+                <Feather size={18} strokeWidth={1.4} aria-hidden="true" /> Uma palavra puxa outra
+              </span>
               <time dateTime={new Date().toISOString().slice(0, 10)}>
                 {new Intl.DateTimeFormat('pt-PT', {
                   day: 'numeric',
@@ -41,6 +47,7 @@ export default async function Home() {
                 }).format(new Date())}
               </time>
             </div>
+            <span className="daily-caption">A descoberta de hoje</span>
             <h2 id="daily-title">
               <a href={entryUrl(day)}>{day.headword}</a>
             </h2>
@@ -56,22 +63,7 @@ export default async function Home() {
         </div>
       </section>
       <div className="container discovery-body">
-        <section aria-labelledby="discover-title">
-          <div className="section-heading">
-            <h2 id="discover-title">Vale a pena conhecer</h2>
-            <a className="text-link" href="/dicionario">
-              Ver dicionário <ArrowRight size={16} />
-            </a>
-          </div>
-          <div className="card-grid">
-            {picks
-              .filter((entry) => entry.id !== day.id)
-              .slice(0, 3)
-              .map((entry) => (
-                <EntryCard key={entry.id} entry={entry} />
-              ))}
-          </div>
-        </section>
+        <DiscoverySection count={3} excludeIds={[day.id]} />
         <div className="discovery-bottom">
           <section className="discovery-regions" aria-labelledby="regions-title">
             <div className="section-heading">
