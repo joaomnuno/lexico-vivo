@@ -26,7 +26,7 @@ export default async function About() {
           <a href="#metodologia">Critérios editoriais</a>
           <a href="#participar">Como participar</a>
           <a href="#fontes">Fontes & atribuição</a>
-          <a href="#privacidade">Privacidade</a>
+          <a href="/sobre/privacidade">Privacidade & dados</a>
         </aside>
         <div className="prose">
           <section id="jose-joao-almeida">
@@ -185,27 +185,11 @@ export default async function About() {
           <section id="privacidade">
             <h2>Privacidade, sem complicar.</h2>
             <p>
-              Os teus guardados ficam no armazenamento local deste navegador. Podes removê-los a
-              qualquer momento pelo marcador do verbete ou apagando os dados do site. Não são
-              sincronizados entre dispositivos.
+              Explicamos o que fica neste navegador, como contamos as consultas e o que acontece aos
+              teus votos e contribuições.
             </p>
             <p>
-              Quando consultas um verbete, votas ou envias uma sugestão, um identificador aleatório
-              é guardado num cookie durante um ano. Permite contar consultas sem duplicar os
-              recarregamentos, gerir o teu voto e limitar submissões. Não é usado para publicidade.
-            </p>
-            <p>
-              As sugestões conservam o texto enviado, o nome opcional, a região opcional, a data e
-              esse identificador. Não envies informações pessoais ou sensíveis nos exemplos. A
-              secção Em alta mostra apenas totais de consultas e pesquisas que abriram verbetes. Não
-              publica identidades nem guarda o texto livre das pesquisas. Os registos de atividade
-              com mais de 30 dias são eliminados quando são registadas novas consultas. Não usamos
-              serviços externos de análise de tráfego nem cookies publicitários.
-            </p>
-            <p>
-              Quando o serviço de áudio está ativo, o texto do verbete é enviado ao Microsoft Azure
-              Speech para gerar a leitura. O ficheiro resultante fica guardado para as reproduções
-              seguintes.
+              <a href="/sobre/privacidade">Como são tratados os meus dados?</a>
             </p>
           </section>
         </div>

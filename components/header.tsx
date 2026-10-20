@@ -46,10 +46,24 @@ export function Header() {
                 key={url}
                 href={url}
                 className={
-                  (path === '/dicionario' ? url === dictionaryTab : path === url) ? 'active' : ''
+                  (
+                    path === '/dicionario'
+                      ? url === dictionaryTab
+                      : url === '/sobre'
+                        ? path.startsWith('/sobre')
+                        : path === url
+                  )
+                    ? 'active'
+                    : ''
                 }
                 aria-current={
-                  (path === '/dicionario' ? url === dictionaryTab : path === url)
+                  (
+                    path === '/dicionario'
+                      ? url === dictionaryTab
+                      : url === '/sobre'
+                        ? path.startsWith('/sobre')
+                        : path === url
+                  )
                     ? 'page'
                     : undefined
                 }

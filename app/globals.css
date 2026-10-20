@@ -3397,17 +3397,12 @@ p a {
   font-size: 19px;
   font-weight: 400;
 }
-.hot-methodology {
-  margin-top: 30px;
-}
-.hot-methodology h2 {
-  font: 600 12px var(--sans);
-  margin-bottom: 12px;
-}
-.hot-methodology p {
+.hot-privacy-link {
+  margin-top: 24px;
   font-size: 11px;
-  color: var(--muted);
-  margin-top: 10px;
+}
+.page-intro > .text-link {
+  margin-bottom: 25px;
 }
 @media (max-width: 540px) {
   .home-hot {

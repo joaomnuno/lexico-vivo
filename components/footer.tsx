@@ -45,7 +45,7 @@ export function Footer() {
       </div>
       <div className="container footer-bottom">
         <span>© {new Date().getUTCFullYear()} Léxico Vivo · Património da língua portuguesa</span>
-        <a href="/sobre#privacidade">Privacidade</a>
+        <a href="/sobre/privacidade">Privacidade</a>
         <a href="/sobre#fontes">Fontes & atribuição</a>
       </div>
     </footer>

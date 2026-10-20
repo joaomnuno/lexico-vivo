@@ -68,18 +68,9 @@ export default async function HotPage({
       >
         <HotList kind={kind} days={days} limit={20} />
       </section>
-      <div className="hot-methodology">
-        <h2>Curiosidade real, contada com cuidado.</h2>
-        <p>
-          Contamos uma consulta por navegador, verbete e dia. Uma pesquisa conta quando abre um
-          verbete a partir das sugestões ou dos resultados. Os totais são agregados: não mostramos
-          quem consultou, nem o texto que escreveu.
-        </p>
-        <p>
-          O período segue a data UTC. Os resultados atualizam-se ao abrir esta página. Os registos
-          com mais de 30 dias são apagados quando chegam novas consultas.
-        </p>
-      </div>
+      <a className="text-link hot-privacy-link" href="/sobre/privacidade">
+        Como são tratados os meus dados?
+      </a>
     </div>
   );
 }
