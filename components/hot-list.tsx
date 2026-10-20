@@ -1,4 +1,5 @@
 import { Flame } from 'lucide-react';
+import { displayDefinition } from '../lib/definition';
 import { hot, type ActivityKind } from '../lib/activity';
 import { entryUrl, formatNumber } from '../lib/dictionary';
 
@@ -19,7 +20,7 @@ export async function HotList({
           <a href={entryUrl(entry)}>
             <div>
               <strong>{entry.headword}</strong>
-              <small>{entry.definitions[0]?.replace(/^◦/, '') || 'Verbete em revisão'}</small>
+              <small>{displayDefinition(entry.definitions[0]) || 'Verbete em revisão'}</small>
             </div>
             <span className="hot-count">
               {formatNumber(count)}

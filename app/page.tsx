@@ -1,4 +1,5 @@
 import './home.css';
+import { displayDefinition } from '../lib/definition';
 import { ArrowRight, MapPin, Feather } from 'lucide-react';
 import { daily, entryUrl, formatNumber, stats } from '../lib/dictionary';
 import { Search } from '../components/search';
@@ -51,7 +52,7 @@ export default async function Home() {
             <h2 id="daily-title">
               <a href={entryUrl(day)}>{day.headword}</a>
             </h2>
-            <p>{day.definitions[0]?.replace(/^◦/, '') || 'Verbete em revisão.'}</p>
+            <p>{displayDefinition(day.definitions[0]) || 'Verbete em revisão.'}</p>
             {day.fields['ex.']?.[0] && <blockquote>“{day.fields['ex.'][0]}”</blockquote>}
             <div className="word-of-day-actions">
               <a className="text-link" href={entryUrl(day)}>

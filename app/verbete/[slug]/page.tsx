@@ -1,4 +1,5 @@
 import { TrackVisit } from '../../../components/track-visit';
+import { displayDefinition } from '../../../lib/definition';
 import { speechEnabled } from '../../../lib/audio';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -34,7 +35,7 @@ export async function generateMetadata({
     ? {
         title: entry.headword,
         description:
-          entry.definitions[0]?.replace(/^◦/, '') || 'Consulta este verbete no Léxico Vivo.',
+          displayDefinition(entry.definitions[0]) || 'Consulta este verbete no Léxico Vivo.',
         alternates: { canonical: entryUrl(entry) },
       }
     : { title: 'Verbete não encontrado' };
@@ -60,7 +61,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
     '@context': 'https://schema.org',
     '@type': 'DefinedTerm',
     name: entry.headword,
-    description: entry.definitions.join('; '),
+    description: entry.definitions.map(displayDefinition).join('; '),
     inDefinedTermSet: 'Léxico Vivo',
   };
   return (
@@ -112,7 +113,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
                   {entry.definitions.map((definition, i) => (
                     <li key={i}>
                       <span className="definition-number">{i + 1}</span>
-                      <p>{definition.replace(/^◦\s*/, '')}</p>
+                      <p>{displayDefinition(definition)}</p>
                     </li>
                   ))}
                 </ol>

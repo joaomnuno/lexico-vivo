@@ -2,6 +2,7 @@ import { ArrowRight, MapPin, Feather, Flame } from 'lucide-react';
 import { entryUrl, type Entry } from '../lib/dictionary';
 import { SaveButton, Contribution } from './interactive';
 import { HotList } from './hot-list';
+import { displayDefinition } from '../lib/definition';
 
 export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSearch?: boolean }) {
   const url = entryUrl(entry) + (fromSearch ? '?via=pesquisa' : '');
@@ -16,7 +17,7 @@ export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSea
       <a className="card-title" href={url}>
         <h3>{entry.headword}</h3>
       </a>
-      <p>{entry.definitions[0]?.replace(/^◦/, '') || 'Definição por completar.'}</p>
+      <p>{displayDefinition(entry.definitions[0]) || 'Definição por completar.'}</p>
       <div className="entry-card-bottom">
         <small>
           {entry.fields.local?.length ? (
@@ -63,7 +64,7 @@ export function Sidebar({ day }: { day: Entry }) {
         <h2>
           <a href={entryUrl(day)}>{day.headword}</a>
         </h2>
-        <p>{day.definitions[0]?.replace(/^◦/, '')}</p>
+        <p>{displayDefinition(day.definitions[0])}</p>
         <a className="text-link" href={entryUrl(day)}>
           Descobrir expressão <ArrowRight size={14} />
         </a>

@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, Search as SearchIcon, X } from 'lucide-react';
 import type { Entry } from '../lib/dictionary';
+import { displayDefinition } from '../lib/definition';
 
 export function Search({
   hero = false,
@@ -144,7 +145,7 @@ export function Search({
               >
                 <span>
                   <strong>{entry.headword}</strong>
-                  <small>{entry.definitions[0] || 'Verbete em revisão'}</small>
+                  <small>{displayDefinition(entry.definitions[0]) || 'Verbete em revisão'}</small>
                 </span>
                 <ArrowRight size={16} />
               </a>
