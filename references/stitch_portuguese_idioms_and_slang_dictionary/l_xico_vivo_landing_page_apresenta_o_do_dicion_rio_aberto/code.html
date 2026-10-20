@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+
+<html lang="pt"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Léxico Vivo - Dicionário Aberto de Calão e Expressões Idiomáticas</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}
+  @keyframes audioWave {
+    0%, 100% { height: 4px; }
+    50% { height: 18px; }
+  }
+  .animate-audio-1 { animation: audioWave 0.8s ease-in-out infinite; }
+  .animate-audio-2 { animation: audioWave 0.8s ease-in-out 0.2s infinite; }
+  .animate-audio-3 { animation: audioWave 0.8s ease-in-out 0.4s infinite; }
+  .animate-audio-4 { animation: audioWave 0.8s ease-in-out 0.15s infinite; }
+</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "secondary-fixed": "#ffdcc3",
+        "on-primary": "#ffffff",
+        "inverse-surface": "#31302d",
+        "surface-container-highest": "#e5e2dd",
+        "on-tertiary-container": "#db784f",
+        "surface-container-high": "#ebe8e3",
+        "secondary-container": "#feac68",
+        "surface-variant": "#e5e2dd",
+        "error-container": "#ffdad6",
+        "primary-fixed": "#fedbcd",
+        "on-error": "#ffffff",
+        "on-primary-fixed": "#29170f",
+        "primary-container": "#3b271e",
+        "surface-tint": "#72594e",
+        "on-secondary": "#ffffff",
+        "on-surface": "#1c1c19",
+        "secondary-fixed-dim": "#ffb77e",
+        "surface-container": "#f0ede9",
+        "on-tertiary": "#ffffff",
+        "tertiary": "#300b00",
+        "primary": "#24130b",
+        "outline": "#81746f",
+        "surface-bright": "#fcf9f4",
+        "on-secondary-fixed": "#2f1500",
+        "on-tertiary-fixed": "#370e00",
+        "on-primary-container": "#aa8d80",
+        "tertiary-fixed": "#ffdbce",
+        "on-surface-variant": "#4f4440",
+        "tertiary-container": "#521900",
+        "surface-dim": "#dcdad5",
+        "outline-variant": "#d3c3bd",
+        "on-background": "#1c1c19",
+        "on-error-container": "#93000a",
+        "surface-container-low": "#f6f3ee",
+        "primary-fixed-dim": "#e0c0b2",
+        "background": "#fcf9f4",
+        "surface": "#fcf9f4",
+        "on-secondary-fixed-variant": "#6e3900",
+        "error": "#ba1a1a",
+        "secondary": "#8d4f12",
+        "tertiary-fixed-dim": "#ffb598",
+        "on-secondary-container": "#773e00",
+        "on-tertiary-fixed-variant": "#7b2f0a",
+        "on-primary-fixed-variant": "#594238",
+        "inverse-on-surface": "#f3f0eb",
+        "inverse-primary": "#e0c0b2",
+        "surface-container-lowest": "#ffffff"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "2xl": "1rem",
+        "full": "9999px"
+      },
+      "spacing": {
+        "margin-desktop": "3rem",
+        "space-3xl": "4rem",
+        "margin-mobile": "1rem",
+        "space-sm": "0.75rem",
+        "space-xs": "0.5rem",
+        "gutter-sm": "1rem",
+        "space-2xs": "0.25rem",
+        "space-lg": "1.5rem",
+        "margin": "2rem",
+        "space-md": "1rem",
+        "space-xl": "2rem",
+        "gutter-lg": "2rem",
+        "gutter": "1.5rem",
+        "space-2xl": "3rem"
+      },
+      "fontFamily": {
+        "headword-lg-mobile": ["Merriweather", "serif"],
+        "meta-caption": ["Plus Jakarta Sans", "sans-serif"],
+        "display-hero-mobile": ["Merriweather", "serif"],
+        "headword-md": ["Merriweather", "serif"],
+        "headword-lg": ["Merriweather", "serif"],
+        "display-hero": ["Merriweather", "serif"],
+        "ui-control": ["Plus Jakarta Sans", "sans-serif"],
+        "definition-body-bold": ["Plus Jakarta Sans", "sans-serif"],
+        "example-quote": ["Merriweather", "serif"],
+        "phonetic-guide": ["Plus Jakarta Sans", "sans-serif"],
+        "definition-body": ["Plus Jakarta Sans", "sans-serif"],
+        "register-tag": ["Plus Jakarta Sans", "sans-serif"]
+      },
+      "fontSize": {
+        "headword-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+        "meta-caption": ["13px", { "lineHeight": "18px", "fontWeight": "500" }],
+        "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+        "headword-md": ["22px", { "lineHeight": "30px", "fontWeight": "700" }],
+        "headword-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+        "display-hero": ["52px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+        "ui-control": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+        "definition-body-bold": ["16px", { "lineHeight": "26px", "fontWeight": "600" }],
+        "example-quote": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+        "phonetic-guide": ["15px", { "lineHeight": "22px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+        "definition-body": ["15px", { "lineHeight": "26px", "fontWeight": "400" }],
+        "register-tag": ["11px", { "lineHeight": "15px", "letterSpacing": "0.04em", "fontWeight": "700" }]
+      }
+    },
+  }
+}</script></head><body class="bg-background font-definition-body text-definition-body text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-surface-container-highest/60 shadow-[0_1px_12px_rgba(59,39,30,0.04)]"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-2.5"><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-3"><img alt="Léxico Vivo Brandmark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UoKvz2u1cbrnf-hECq2VzHGsIRX5C3Z6aCcSNiNQ5qyK4FdzAmXLXEV2Eo0zqsNH7QAhv4siNyyfDnYy3t3-oMfbDZu8dkBTewgVpP_1rbYiNhIivnfA_v8TSWe1PpKMdNJNsaJ5bRRyjz3UxzYtWVouQn6P6oz5t0eokXsJd1YAnA341xkT9lZNuT5c1xY8m4NUYxAacyMB4uxOhPs3poJZIUsAv10a8MFPmGJV9Lm6nrSwcyGXsUtw"/><div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-headword-md text-xl text-primary tracking-tight font-bold">Léxico Vivo</span><span class="font-register-tag text-[10px] bg-amber-100/80 text-amber-900 border border-amber-300/60 px-1.5 py-0.5 rounded font-bold uppercase tracking-wider">Aberto</span></div><p class="hidden sm:block text-xs text-on-surface-variant font-meta-caption">Repositório colaborativo da língua popular portuguesa</p></div></div><div class="flex-1 max-w-lg hidden md:block"><div class="relative flex items-center bg-surface-container-lowest border border-surface-container-highest/80 rounded-xl shadow-[0_1px_3px_rgba(59,39,30,0.03)] focus-within:border-secondary focus-within:ring-2 focus-within:ring-secondary/15 transition-all"><span class="material-symbols-outlined text-outline ml-3 pointer-events-none text-[20px]">search</span><input class="w-full pl-2.5 pr-4 py-2 font-ui-control text-xs text-on-surface bg-transparent focus:outline-none placeholder:text-outline" placeholder="Pesquisar gíria, calão ou dito..." type="search" value="armar aos cágados"/><div class="flex items-center gap-1 bg-surface-container/70 text-on-surface-variant text-[11px] font-mono px-2 py-0.5 rounded mr-2 border border-surface-container-highest pointer-events-none"><span>⌘K</span></div></div></div><div class="flex items-center gap-3"><div class="flex items-center bg-surface-container-high/80 border border-surface-container-highest/60 rounded-full p-0.5 text-xs"><button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-primary shadow-xs font-bold" type="button">PT-PT</button><button class="px-2.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface transition-colors" type="button">Variantes</button></div><button class="w-8 h-8 rounded-full bg-primary-container text-on-primary hover:bg-primary transition-colors flex items-center justify-center shadow-xs" title="Perfil"><span class="material-symbols-outlined text-[18px]">person</span></button></div></div><!-- Sub-bar with Live Community Pulse --><div class="flex items-center justify-between border-t border-surface-container-highest/40 pt-2 text-xs"><nav class="flex items-center gap-1 overflow-x-auto py-0.5 text-xs"><a class="font-semibold text-secondary bg-surface-container-high/70 px-2.5 py-1 rounded-lg transition-colors" data-path="dicionario" href="#">Dicionário</a><a class="font-medium text-on-surface-variant hover:text-primary px-2.5 py-1 rounded-lg transition-colors" data-path="expressoes-populares" href="#">Expressões Populares</a><a class="font-medium text-on-surface-variant hover:text-primary px-2.5 py-1 rounded-lg transition-colors" data-path="calao-e-giria" href="#">Calão &amp; Gíria</a><a class="font-medium text-on-surface-variant hover:text-primary px-2.5 py-1 rounded-lg transition-colors" data-path="regioes" href="#">Regiões</a><a class="font-medium text-on-surface-variant hover:text-primary px-2.5 py-1 rounded-lg transition-colors" data-path="sugerir-termo" href="#">Sugerir Termo</a></nav><div class="flex items-center gap-2 text-xs text-on-surface-variant bg-surface-container-low px-2.5 py-1 rounded-full border border-surface-container-highest/60"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span></span><span class="font-medium hidden sm:inline"><strong class="text-primary font-bold">184</strong> utilizadores a consultar agora</span><span class="text-outline text-[11px] hidden md:inline">• Último termo adicionado há 12 min</span></div></div></div></header><main class="w-full pt-28 sm:pt-32 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-low px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+<!-- Atmospheric decorative radial glow -->
+<div class="absolute -top-32 right-1/4 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-20 w-80 h-80 rounded-full bg-primary-fixed/25 blur-3xl pointer-events-none"></div>
+<div class="max-w-5xl mx-auto flex flex-col items-center text-center relative z-10">
+<!-- Archival Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high text-secondary shadow-sm mb-6">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary">Preservação Viva do Património Oral Português</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-display-hero text-primary max-w-4xl tracking-tight mb-6">
+        A Língua Portuguesa como Ela Realmente se Fala na Rua, na Taberna e no Café.
+      </h1>
+<!-- Subtitle -->
+<p class="font-definition-body text-definition-body text-on-surface-variant max-w-2xl mb-10 leading-relaxed">
+        Mais de 4.800 expressões populares, calão regional e gírias com contexto histórico, pronúncia fonética e etimologia documentada de forma aberta pela comunidade.
+      </p>
+<!-- Interactive Search Engine Card -->
+<div class="w-full max-w-3xl bg-surface-container-lowest rounded-2xl p-2.5 sm:p-3 shadow-md mb-4 flex flex-col sm:flex-row items-stretch gap-2">
+<div class="flex-1 flex items-center px-3.5 gap-3">
+<span class="material-symbols-outlined text-outline text-xl">search</span>
+<input class="w-full bg-transparent border-0 p-0 text-on-surface placeholder:text-outline font-ui-control text-ui-control focus:ring-0 focus:outline-none" id="search-input" placeholder="Ex: dar com a língua nos dentes, armar aos cágados, bater a bota..." type="text"/>
+<span class="hidden sm:inline-flex items-center text-xs font-mono px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant">⌘K</span>
+</div>
+<button class="bg-primary text-on-primary hover:bg-primary-container px-6 py-3.5 rounded-xl font-ui-control text-ui-control flex items-center justify-center gap-2 transition-colors shadow-sm" id="btn-search" type="button">
+<span>Consultar</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<!-- Quick Trending Pills -->
+<div class="flex flex-wrap items-center justify-center gap-2 mb-12">
+<span class="font-meta-caption text-meta-caption text-outline flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">trending_up</span> Em voga hoje:
+        </span>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high hover:bg-secondary-fixed/50 text-on-surface text-meta-caption font-ui-control transition-colors" onclick="quickFill(this)" type="button">
+          armar aos cágados
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high hover:bg-secondary-fixed/50 text-on-surface text-meta-caption font-ui-control transition-colors" onclick="quickFill(this)" type="button">
+          estar com os azeites
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high hover:bg-secondary-fixed/50 text-on-surface text-meta-caption font-ui-control transition-colors" onclick="quickFill(this)" type="button">
+          chico-esperto
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high hover:bg-secondary-fixed/50 text-on-surface text-meta-caption font-ui-control transition-colors" onclick="quickFill(this)" type="button">
+          partir o coco a rir
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high hover:bg-secondary-fixed/50 text-on-surface text-meta-caption font-ui-control transition-colors" onclick="quickFill(this)" type="button">
+          dar de frosques
+        </button>
+</div>
+<!-- Hero Stats Bar -->
+<div class="w-full grid grid-cols-2 md:grid-cols-4 gap-4 p-5 rounded-2xl bg-surface-container-high/60 backdrop-blur-sm">
+<div class="flex flex-col items-center justify-center p-2 text-center">
+<span class="font-headword-md text-headword-md text-primary font-bold">4.820+</span>
+<span class="font-meta-caption text-meta-caption text-on-surface-variant">Expressões catalogadas</span>
+</div>
+<div class="flex flex-col items-center justify-center p-2 text-center">
+<span class="font-headword-md text-headword-md text-secondary font-bold">18</span>
+<span class="font-meta-caption text-meta-caption text-on-surface-variant">Distritos e Ilhas mapeados</span>
+</div>
+<div class="flex flex-col items-center justify-center p-2 text-center">
+<span class="font-headword-md text-headword-md text-primary font-bold">24.500+</span>
+<span class="font-meta-caption text-meta-caption text-on-surface-variant">Contribuições orais</span>
+</div>
+<div class="flex flex-col items-center justify-center p-2 text-center">
+<span class="font-headword-md text-headword-md text-secondary font-bold">100%</span>
+<span class="font-meta-caption text-meta-caption text-on-surface-variant">Corpus Aberto CC BY-SA</span>
+</div>
+</div>
+</div>
+</section>
+<!-- DESTAQUE QUOTIDIANO: EXPRESSÃO DO DIA -->
+<section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<div class="flex flex-col lg:flex-row items-stretch gap-8 bg-surface-container-low rounded-2xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
+<!-- Ribbon Badge -->
+<div class="absolute top-0 right-0 bg-secondary text-on-secondary px-6 py-1.5 rounded-bl-xl font-register-tag text-register-tag uppercase tracking-wider flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-sm">stars</span>
+        Destaque Quotidiano
+      </div>
+<!-- Main Card Left (Verbete) -->
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<!-- Tags & Category -->
+<div class="flex flex-wrap items-center gap-2 mb-4">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-register-tag text-register-tag uppercase font-bold">
+              Expressão Idiomática
+            </span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-register-tag text-register-tag uppercase">
+              Registo Informal / Popular
+            </span>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-register-tag text-register-tag uppercase">
+              Portugal (Geral)
+            </span>
+</div>
+<!-- Headword and Audio -->
+<div class="flex flex-wrap items-center gap-4 mb-3">
+<h2 class="font-headword-lg text-headword-lg text-primary tracking-tight font-bold">
+              Estar com os azeites
+            </h2>
+<button class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center hover:bg-secondary hover:text-on-secondary transition-all shadow-sm" id="audio-sample-trigger" onclick="toggleAudioPlayback()" title="Ouvir pronúncia autêntica" type="button">
+<span class="material-symbols-outlined text-lg" id="audio-icon">volume_up</span>
+</button>
+<span class="font-phonetic-guide text-phonetic-guide text-outline italic">/ɨʃˈtaɾ kõ uʒ ɐˈzɐj.tɨʃ/</span>
+</div>
+<!-- Semantic Duality: Literal vs Figurative -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-xs">
+<span class="text-xs font-bold uppercase text-secondary tracking-wider font-meta-caption block mb-1">
+                Sentido Figurado (Pragmático)
+              </span>
+<p class="font-definition-body-bold text-definition-body-bold text-primary">
+                Estar de péssimo humor, irritado, de trombas ou com má disposição repentina sem causa evidente.
+              </p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-xs">
+<span class="text-xs font-bold uppercase text-outline tracking-wider font-meta-caption block mb-1">
+                Origem Histórica (Século XIX)
+              </span>
+<p class="font-definition-body text-definition-body text-on-surface-variant">
+                Remete aos antigos candeeiros a azeite que, quando o combustível continha impurezas ou água, crepitavam ruidosamente e deitavam fumo espesso.
+              </p>
+</div>
+</div>
+<!-- Citation Blockquote -->
+<div class="p-4 bg-surface-container-high rounded-xl mb-6">
+<p class="font-example-quote text-example-quote text-primary italic mb-2">
+              «Não fales agora com o Manuel sobre as contas do mês; ele hoje acordou com os azeites todos e nem sequer deu os bons-dias.»
+            </p>
+<span class="font-meta-caption text-meta-caption text-outline block">
+              — Diálogo quotidiano registado em alfarrabista, Lisboa (Baixa Pombalina)
+            </span>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex flex-wrap items-center gap-3 pt-2">
+<a class="px-5 py-2.5 rounded-xl bg-primary text-on-primary hover:bg-primary-container font-ui-control text-ui-control transition-colors flex items-center gap-2 shadow-xs" href="#">
+<span>Explorar Verbete Completo</span>
+<span class="material-symbols-outlined text-sm">menu_book</span>
+</a>
+<button class="px-4 py-2.5 rounded-xl bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-ui-control text-ui-control transition-colors flex items-center gap-2" onclick="copyExpressionLink(this)" type="button">
+<span class="material-symbols-outlined text-sm">share</span>
+<span class="btn-label">Partilhar</span>
+</button>
+<div class="ml-auto flex items-center gap-1.5 text-xs text-on-surface-variant font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">verified</span>
+            Validado por 842 falantes
+          </div>
+</div>
+</div>
+<!-- Right Column: Visual Infographic of Regional Usage -->
+<div class="w-full lg:w-72 bg-surface-container-lowest p-5 rounded-xl flex flex-col justify-between shadow-xs">
+<div>
+<h3 class="font-headword-md text-base text-primary font-bold mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-sm">equalizer</span>
+            Distribuição de Uso
+          </h3>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">
+            Prevalência registada no corpus por região territorial:
+          </p>
+<!-- Frequency Bars -->
+<div class="space-y-3 mb-6">
+<div>
+<div class="flex justify-between text-xs font-meta-caption mb-1">
+<span class="text-on-surface">Lisboa &amp; Vale do Tejo</span>
+<span class="font-bold text-primary">94%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 94%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-meta-caption mb-1">
+<span class="text-on-surface">Centro &amp; Beiras</span>
+<span class="font-bold text-primary">88%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 88%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-meta-caption mb-1">
+<span class="text-on-surface">Norte &amp; Douro</span>
+<span class="font-bold text-primary">82%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary-fixed-dim h-full rounded-full" style="width: 82%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-xs font-meta-caption mb-1">
+<span class="text-on-surface">Alentejo &amp; Algarve</span>
+<span class="font-bold text-primary">76%</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary-fixed-dim h-full rounded-full" style="width: 76%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Curated Visual Image representation of Portuguese Heritage -->
+<div class="relative w-full h-36 rounded-lg overflow-hidden shadow-inner">
+<img class="w-full h-full object-cover" data-alt="Close up photography of vintage Portuguese ceramic olive oil cruet on rustic wooden tavern table, warm espresso and terracotta lighting, editorial cultural still life" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmTDAVyMvyzkvdDa9ayPt4hJVuNKtidPer6YxebhT8mjsdLOhjKmkuEg014Hx5xtEN0Wh6IAUKQ1pQqkXxDgHS6HFQUdTWyautsgPEEUhBRNAXKiQtNO1qcCjioizzhs8mAlstNMPvFZbwvG5nJBlp5DqWZBNGU-JIXqN6V3cihTgmmlCDSF6gyd-TQ-EqNsRTXQ_2dUs6eV3bmnLovs3UNwC8T5jxxzSmNL5GV7G65mQXLPwqRKDF"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-2.5">
+<span class="text-[11px] text-surface font-meta-caption font-medium">Azeite de candeia: a faísca do mau feitio</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PILARES DO PROJETO / COMO FUNCIONA -->
+<section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary font-bold block mb-2">Metodologia e Princípios</span>
+<h2 class="font-headword-lg text-headword-lg text-primary tracking-tight font-bold">
+        Como Salvaguardamos a Linguagem Viva
+      </h2>
+<p class="font-definition-body text-definition-body text-on-surface-variant mt-3">
+        Combinamos a seriedade da lexicografia tradicional com a flexibilidade da documentação etnográfica aberta.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between shadow-xs transition-transform hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center font-headword-md text-lg font-bold mb-6">
+            01
+          </div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-3">
+            Rigor Lexicográfico
+          </h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant leading-relaxed mb-6">
+            Cada gíria ou calão recebe tratamento com classe gramatical, nuances semânticas, transcrição fonética IPA e nível de tabu social para clareza contextual absoluta.
+          </p>
+</div>
+<div class="pt-4 flex items-center gap-2 text-xs font-ui-control text-secondary">
+<span class="material-symbols-outlined text-sm">spellcheck</span>
+<span>Indexação sistemática</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between shadow-xs transition-transform hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary text-on-secondary flex items-center justify-center font-headword-md text-lg font-bold mb-6">
+            02
+          </div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-3">
+            Atlas Regional &amp; Dialetal
+          </h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant leading-relaxed mb-6">
+            Do vocabulário portuense ao calão de pescador olhanense, traçamos as linhas invisíveis dos regionalismos de Trás-os-Montes aos Açores e Madeira.
+          </p>
+</div>
+<div class="pt-4 flex items-center gap-2 text-xs font-ui-control text-secondary">
+<span class="material-symbols-outlined text-sm">map</span>
+<span>18 Distritos &amp; Ilhas</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between shadow-xs transition-transform hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary flex items-center justify-center font-headword-md text-lg font-bold mb-6">
+            03
+          </div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-3">
+            Comunitário e Aberto
+          </h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant leading-relaxed mb-6">
+            Falantes de todas as idades votam no selo «Ainda se usa na tua terra?» e sugerem exemplos sonoros em áudio para enriquecer o acervo lusófono.
+          </p>
+</div>
+<div class="pt-4 flex items-center gap-2 text-xs font-ui-control text-secondary">
+<span class="material-symbols-outlined text-sm">diversity_3</span>
+<span>Moderação colegiada</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ATLAS DIALETAL INTERATIVO PREVIEW -->
+<section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-10 gap-4">
+<div>
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary font-bold block mb-1">Variação Geográfica</span>
+<h2 class="font-headword-lg text-headword-lg text-primary tracking-tight font-bold">
+          Exploração do Atlas Regional
+        </h2>
+<p class="font-definition-body text-definition-body text-on-surface-variant mt-2">
+          Clica nas regiões históricas para ver expressões endémicas e hábitos orais singulares.
+        </p>
+</div>
+<a class="px-4 py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-primary font-ui-control text-ui-control transition-colors flex items-center gap-1.5 self-start md:self-auto" href="#">
+<span>Ver Mapa Geral</span>
+<span class="material-symbols-outlined text-sm">explore</span>
+</a>
+</div>
+<!-- Region Tabs / Cards Mosaic -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+<!-- Norte & Porto -->
+<div class="bg-surface-container-low rounded-2xl p-5 flex flex-col justify-between hover:bg-surface-container-high transition-all cursor-pointer shadow-xs group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headword-md text-base text-primary font-bold group-hover:text-secondary transition-colors">Norte &amp; Porto</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[11px] font-bold font-mono">1.120</span>
+</div>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">Gíria tripeira, expressividade franca e vigorosa.</p>
+<div class="space-y-1.5">
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Dar de frosques»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Morcão» / «Andor»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Bai no Batalha»</div>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span>Minho e Douro</span>
+<span class="material-symbols-outlined text-sm text-secondary">arrow_right_alt</span>
+</div>
+</div>
+<!-- Beiras & Centro -->
+<div class="bg-surface-container-low rounded-2xl p-5 flex flex-col justify-between hover:bg-surface-container-high transition-all cursor-pointer shadow-xs group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headword-md text-base text-primary font-bold group-hover:text-secondary transition-colors">Beiras &amp; Centro</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[11px] font-bold font-mono">790</span>
+</div>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">Tradição serrana, calão académico de Coimbra.</p>
+<div class="space-y-1.5">
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Desembesta»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Chumbar» / «Rasganço»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Estar à coca»</div>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span>Serra &amp; Mondego</span>
+<span class="material-symbols-outlined text-sm text-secondary">arrow_right_alt</span>
+</div>
+</div>
+<!-- Lisboa & Vale do Tejo -->
+<div class="bg-surface-container-low rounded-2xl p-5 flex flex-col justify-between hover:bg-surface-container-high transition-all cursor-pointer shadow-xs group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headword-md text-base text-primary font-bold group-hover:text-secondary transition-colors">Lisboa &amp; Tejo</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[11px] font-bold font-mono">1.350</span>
+</div>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">Calão bairrista, gíria fadista e sarcasmo alfacinha.</p>
+<div class="space-y-1.5">
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Armar aos cágados»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Bater a bota»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Giro aos quadradinhos»</div>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span>Mouraria a Alfama</span>
+<span class="material-symbols-outlined text-sm text-secondary">arrow_right_alt</span>
+</div>
+</div>
+<!-- Alentejo & Algarve -->
+<div class="bg-surface-container-low rounded-2xl p-5 flex flex-col justify-between hover:bg-surface-container-high transition-all cursor-pointer shadow-xs group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headword-md text-base text-primary font-bold group-hover:text-secondary transition-colors">Alentejo &amp; Sul</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[11px] font-bold font-mono">840</span>
+</div>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">Cadência vagarosa, adágios agrícolas e do mar.</p>
+<div class="space-y-1.5">
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Comer à farta»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Moleano» / «Moço»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Cair o carmo»</div>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span>Planície &amp; Litoral</span>
+<span class="material-symbols-outlined text-sm text-secondary">arrow_right_alt</span>
+</div>
+</div>
+<!-- Ilhas (Açores & Madeira) -->
+<div class="bg-surface-container-low rounded-2xl p-5 flex flex-col justify-between hover:bg-surface-container-high transition-all cursor-pointer shadow-xs group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headword-md text-base text-primary font-bold group-hover:text-secondary transition-colors">Ilhas Atlânticas</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[11px] font-bold font-mono">720</span>
+</div>
+<p class="font-meta-caption text-meta-caption text-on-surface-variant mb-4">Expressões insulares açorianas e madeirenses.</p>
+<div class="space-y-1.5">
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Escangalhar»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Bravio» / «Chitó»</div>
+<div class="px-2.5 py-1 rounded-lg bg-surface-container-lowest text-xs font-definition-body text-primary font-medium">«Dar uma coça»</div>
+</div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span>Arquipélagos</span>
+<span class="material-symbols-outlined text-sm text-secondary">arrow_right_alt</span>
+</div>
+</div>
+</div>
+</section>
+<!-- MURAL DE EXPRESSÕES POPULARES -->
+<section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
+<div>
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary font-bold block mb-1">Mural Colaborativo</span>
+<h2 class="font-headword-lg text-headword-lg text-primary tracking-tight font-bold">
+          Expressões em Destaque no Corpus
+        </h2>
+</div>
+<!-- Quick Category Filter Chips -->
+<div class="flex flex-wrap items-center gap-1.5">
+<button class="px-3 py-1.5 rounded-full bg-primary text-on-primary text-xs font-ui-control" type="button">Todas</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface text-xs font-ui-control transition-colors" type="button">Mau Feitio</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface text-xs font-ui-control transition-colors" type="button">Humor &amp; Troça</button>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface text-xs font-ui-control transition-colors" type="button">Trabalho &amp; Vadiagem</button>
+</div>
+</div>
+<!-- Expressive Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-on-tertiary-container bg-tertiary-fixed px-2 py-0.5 rounded font-bold">Calão / Mau Feitio</span>
+<span class="text-xs text-outline font-meta-caption">Lisboa</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Armar aos cágados</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Aparentar superioridade, exibir pose pomposa ou dar ares de importância sem ter qualquer justificação ou mérito real.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «Chega ao escritório de gravata nova e já se está a armar aos cágados diante dos estagiários.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 380 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary bg-secondary-fixed px-2 py-0.5 rounded font-bold">Popular / Esperteza</span>
+<span class="text-xs text-outline font-meta-caption">Nacional</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Chico-esperto</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Indivíduo que procura ludibriar normas ou levar vantagem desonesta e mesquinha sobre os outros julgando-se mais astuto do que realmente é.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «Ultrapassou toda a fila pela berma, mas o guarda apanhou o chico-esperto logo à frente.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 512 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-primary bg-primary-fixed px-2 py-0.5 rounded font-bold">Gíria / Fuga</span>
+<span class="text-xs text-outline font-meta-caption">Porto &amp; Douro</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Dar de frosques</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Fugir às pressas; retirar-se sub-repticiamente de uma situação embaraçosa ou de perigo iminente.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «Assim que ouviu a porta ranger, deu de frosques pelas traseiras do quintal.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 428 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-secondary bg-secondary-fixed px-2 py-0.5 rounded font-bold">Eufemismo / Morte</span>
+<span class="text-xs text-outline font-meta-caption">Alentejo &amp; Sul</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Bater a bota</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Falecer, expirar; morrer. Usado comummente em tom descontraído ou jocoso sem cerimónia formal.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «O velho frigorífico da minha avó finalmente bateu a bota depois de trinta anos a funcionar.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 296 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-on-tertiary-container bg-tertiary-fixed px-2 py-0.5 rounded font-bold">Humor / Desilusão</span>
+<span class="text-xs text-outline font-meta-caption">Geral Lusófono</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Tirar o cavalinho da chuva</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Desistir de uma pretensão vã ou infundada; perder as ilusões quanto a obter algo que não irá acontecer.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «Se estás à espera que te empreste o carro no fim de semana, podes ir tirando o cavalinho da chuva.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 674 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="bg-surface-container-low rounded-2xl p-6 shadow-xs flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between gap-2 mb-3">
+<span class="font-register-tag text-register-tag uppercase tracking-wider text-primary bg-primary-fixed px-2 py-0.5 rounded font-bold">Adágio / Prudência</span>
+<span class="text-xs text-outline font-meta-caption">Trás-os-Montes</span>
+</div>
+<h3 class="font-headword-md text-headword-md text-primary font-bold mb-2">Não atar nem desatar</h3>
+<p class="font-definition-body text-definition-body text-on-surface-variant mb-4">
+            Ficar num estado de indecisão crónica ou impasse; não resolver um problema nem permitir que outros o resolvam.
+          </p>
+<div class="bg-surface-container-lowest p-3 rounded-lg text-xs italic font-example-quote text-primary">
+            «A comissão reuniu-se três vezes e não ata nem desata com a escolha do novo presidente.»
+          </div>
+</div>
+<div class="pt-4 mt-4 flex items-center justify-between text-xs text-outline">
+<span class="flex items-center gap-1 font-meta-caption">
+<span class="material-symbols-outlined text-sm text-secondary">thumb_up</span> 219 confirmações
+          </span>
+<a class="font-ui-control text-secondary hover:text-primary transition-colors font-bold" href="#">Ver verbete →</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CALL TO ACTION COMUNITÁRIO (BANNER ESPRESSO) -->
+<section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<div class="relative bg-primary-container text-on-primary rounded-3xl p-8 sm:p-14 shadow-lg overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8">
+<!-- Ambient background decoration -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="max-w-2xl relative z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/30 text-secondary-fixed text-xs font-register-tag uppercase tracking-wider mb-4">
+<span class="material-symbols-outlined text-sm">campaign</span>
+          Participação Colaborativa
+        </div>
+<h2 class="font-headword-lg text-headword-lg text-surface-bright tracking-tight font-bold mb-4">
+          Conheces uma expressão da tua terra que não está nos dicionários convencionais?
+        </h2>
+<p class="font-definition-body text-definition-body text-primary-fixed-dim leading-relaxed">
+          A linguagem popular não é estática nem pertence às academias — pertence a quem a fala todos os dias. Junta-te aos mais de 2.400 colaboradores voluntários e ajuda a documentar a gíria viva da tua aldeia, vila ou bairro.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-stretch gap-3 relative z-10 w-full lg:w-auto">
+<button class="px-6 py-3.5 rounded-xl bg-secondary hover:bg-secondary-container text-on-secondary hover:text-on-secondary-container font-ui-control text-ui-control transition-all flex items-center justify-center gap-2 shadow-sm font-bold" onclick="openContributionModal()" type="button">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+<span>Submeter Nova Expressão</span>
+</button>
+<a class="px-6 py-3.5 rounded-xl bg-surface-container-high/20 hover:bg-surface-container-high/30 text-surface-bright font-ui-control text-ui-control transition-colors flex items-center justify-center gap-2 text-center" href="#">
+<span class="material-symbols-outlined text-lg">database</span>
+<span>Explorar Corpus Aberto</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function quickFill(btn) {
+    const term = btn.textContent.trim();
+    const input = document.getElementById('search-input');
+    if (input) {
+      input.value = term;
+      input.focus();
+    }
+  }
+
+  function toggleAudioPlayback() {
+    const icon = document.getElementById('audio-icon');
+    if (!icon) return;
+    
+    if (icon.textContent === 'volume_up') {
+      icon.textContent = 'pause';
+      // Simulate 2 seconds of playback
+      setTimeout(() => {
+        icon.textContent = 'volume_up';
+      }, 2200);
+    } else {
+      icon.textContent = 'volume_up';
+    }
+  }
+
+  function copyExpressionLink(button) {
+    const label = button.querySelector('.btn-label');
+    if (label) {
+      const orig = label.textContent;
+      label.textContent = 'Copiado!';
+      setTimeout(() => {
+        label.textContent = orig;
+      }, 2000);
+    }
+  }
+
+  function openContributionModal() {
+    alert('Obrigado pelo teu interesse! O formulário de submissão comunitária com validação fonética será aberto para registo imediato.');
+  }
+
+  // Keyboard shortcut ⌘K / Ctrl+K focus
+  window.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      const input = document.getElementById('search-input');
+      if (input) {
+        input.focus();
+        input.select();
+      }
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-low border-t border-surface-container-highest/80 mt-12 py-10"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-8"><div class="grid grid-cols-1 md:grid-cols-4 gap-8"><div class="md:col-span-2 flex flex-col gap-3"><div class="flex items-center gap-2"><span class="font-headword-md text-xl text-primary font-bold">Léxico Vivo</span><span class="font-register-tag text-[10px] bg-amber-100/90 text-amber-900 border border-amber-300/60 px-1.5 py-0.5 rounded font-bold uppercase">Colaborativo</span></div><p class="font-definition-body text-xs text-on-surface-variant max-w-md leading-relaxed">O repositório colaborativo e vivo da linguagem popular portuguesa, documentando com rigor o calão, as gírias urbanas e o rico património etnográfico das variantes regionais de Portugal e da lusofonia.</p><div class="flex items-center gap-6 pt-1"><div class="flex flex-col"><span class="font-headword-md text-lg text-secondary font-bold">4.820+</span><span class="text-[11px] text-outline">expressões catalogadas</span></div><div class="h-6 w-px bg-surface-container-highest"></div><div class="flex flex-col"><span class="font-headword-md text-lg text-primary font-bold">18</span><span class="text-[11px] text-outline">distritos e ilhas mapeados</span></div></div></div><div class="flex flex-col gap-2"><span class="text-xs font-bold text-primary uppercase tracking-wider">Navegação e Corpus</span><div class="flex flex-col gap-1.5 text-xs"><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="dicionario" href="#">Índice Alfabético Geral</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="expressoes-populares" href="#">Provérbios e Adágios</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="calao-e-giria" href="#">Vocabulário de Calão Notável</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="regioes" href="#">Atlas Dialectal e Regionalismos</a></div></div><div class="flex flex-col gap-2"><span class="text-xs font-bold text-primary uppercase tracking-wider">Metodologia &amp; Projeto</span><div class="flex flex-col gap-1.5 text-xs"><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="sobre-o-projeto" href="#">Critérios de Lexicografia</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="sugerir-termo" href="#">Submissão Comunitária</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">API e Dados Abertos</a><a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Licenciamento Editorial</a></div></div></div><div class="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-surface-container-highest/60 text-xs text-on-surface-variant"><p class="text-center md:text-left">Conteúdo sob licença <span class="font-semibold text-on-surface">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)</span>.</p><div class="flex items-center gap-4 text-xs"><a class="hover:text-on-surface transition-colors" href="#">Privacidade</a><a class="hover:text-on-surface transition-colors" href="#">Estatuto Editorial</a><a class="hover:text-on-surface transition-colors" href="#">Contacto</a></div></div></div></footer></body></html>

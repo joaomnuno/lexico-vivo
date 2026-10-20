@@ -1,0 +1,6727 @@
+{
+  "entry_count": 7241,
+  "orphan_lines": [],
+  "empty_entries": [
+    {
+      "id": 201,
+      "headword": "andar com a lua",
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": 557,
+      "headword": "bens materiais",
+      "pages": [
+        32
+      ]
+    },
+    {
+      "id": 576,
+      "headword": "betão armado",
+      "pages": [
+        34
+      ]
+    },
+    {
+      "id": 617,
+      "headword": "bocadinho andando",
+      "pages": [
+        36
+      ]
+    },
+    {
+      "id": 662,
+      "headword": "bragalho",
+      "pages": [
+        39
+      ]
+    },
+    {
+      "id": 730,
+      "headword": "cachuchos",
+      "pages": [
+        43
+      ]
+    },
+    {
+      "id": 862,
+      "headword": "caralheira",
+      "pages": [
+        49
+      ]
+    },
+    {
+      "id": 883,
+      "headword": "carrapato",
+      "pages": [
+        50
+      ]
+    },
+    {
+      "id": 922,
+      "headword": "cedo ouviste, tarde piaste",
+      "pages": [
+        52
+      ]
+    },
+    {
+      "id": 967,
+      "headword": "chegar-se à sardinha",
+      "pages": [
+        55
+      ]
+    },
+    {
+      "id": 1108,
+      "headword": "com o coração nas mãos",
+      "pages": [
+        61
+      ]
+    },
+    {
+      "id": 1109,
+      "headword": "como diz o outro",
+      "pages": [
+        61
+      ]
+    },
+    {
+      "id": 1137,
+      "headword": "com punhos de renda",
+      "pages": [
+        62
+      ]
+    },
+    {
+      "id": 1143,
+      "headword": "com uma mão por baixo e outra por cima",
+      "pages": [
+        62
+      ]
+    },
+    {
+      "id": 1172,
+      "headword": "conhecer pela pinta",
+      "pages": [
+        64
+      ]
+    },
+    {
+      "id": 1181,
+      "headword": "contar pelos dedos",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1188,
+      "headword": "contos de fadas",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1192,
+      "headword": "contra vapor",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1198,
+      "headword": "conversa mole",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1200,
+      "headword": "conversa para boi dormir",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1204,
+      "headword": "coração ao largo",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1206,
+      "headword": "coração rasgado",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1208,
+      "headword": "cor de burro quando foge",
+      "pages": [
+        65
+      ]
+    },
+    {
+      "id": 1212,
+      "headword": "corpo a corpo",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1213,
+      "headword": "corpo moído",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1214,
+      "headword": "corpo sem alma",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1216,
+      "headword": "correr à conquista",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1219,
+      "headword": "correr as capelinhas",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1236,
+      "headword": "cortar a alma",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1238,
+      "headword": "cortar a palavra",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1241,
+      "headword": "cortar as unhas rentes",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1243,
+      "headword": "cortar na pele",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1244,
+      "headword": "cortar o coração",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1245,
+      "headword": "cortar o mal pela raiz",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1246,
+      "headword": "cortar o pio",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1247,
+      "headword": "cortar os braços",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1248,
+      "headword": "cortar terreno",
+      "pages": [
+        66
+      ]
+    },
+    {
+      "id": 1267,
+      "headword": "crer a olhos fechados",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1268,
+      "headword": "cresce e aparece",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1272,
+      "headword": "criar asas",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1274,
+      "headword": "criar calo",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1275,
+      "headword": "criar embalagem",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1276,
+      "headword": "criar fama e deitar-se a dormir",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1277,
+      "headword": "criar raízes",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1278,
+      "headword": "criar uma alma nova",
+      "pages": [
+        67
+      ]
+    },
+    {
+      "id": 1285,
+      "headword": "cruzar os braços",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1294,
+      "headword": "cueca fio dental",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1295,
+      "headword": "cumprir com as obrigações",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1296,
+      "headword": "cumprir o seu papel",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1302,
+      "headword": "curvar a fronte",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1306,
+      "headword": "cuspir para o ar",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1307,
+      "headword": "custar cara a brincadeira",
+      "pages": [
+        68
+      ]
+    },
+    {
+      "id": 1322,
+      "headword": "da melhor água",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1323,
+      "headword": "da melhor vontade",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1326,
+      "headword": "dançar conforme a música",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1329,
+      "headword": "dançar pau com os ursos",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1332,
+      "headword": "da pesada",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1333,
+      "headword": "da pior espécie",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1334,
+      "headword": "da ponta dos pés à raiz dos cabelos",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1336,
+      "headword": "daqui lá, é um tiro",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1337,
+      "headword": "daqui não levas nada",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1342,
+      "headword": "dar à canela",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1344,
+      "headword": "dar a César o que é de César",
+      "pages": [
+        69
+      ]
+    },
+    {
+      "id": 1346,
+      "headword": "dar acordo",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1348,
+      "headword": "dar a entender",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1350,
+      "headword": "dar alfinetadas",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1351,
+      "headword": "dar à língua",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1353,
+      "headword": "dar a lume",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1356,
+      "headword": "dar a nota",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1366,
+      "headword": "dar ares",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1369,
+      "headword": "dar asas à imaginação",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1371,
+      "headword": "dar as cartas",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1372,
+      "headword": "dar as despedidas",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1376,
+      "headword": "dar a sua palavra",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1377,
+      "headword": "dar as últimas",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1379,
+      "headword": "dar à taramela",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1380,
+      "headword": "dar até à última pinga de sangue",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1382,
+      "headword": "dar azo",
+      "pages": [
+        70
+      ]
+    },
+    {
+      "id": 1386,
+      "headword": "dar bronca",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1401,
+      "headword": "dar com os costados",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1403,
+      "headword": "dar conta de si",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1405,
+      "headword": "dar corda",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1408,
+      "headword": "dar corda para se enforcar",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1414,
+      "headword": "dar de chapa",
+      "pages": [
+        71
+      ]
+    },
+    {
+      "id": 1417,
+      "headword": "dar de mão",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "id": 1419,
+      "headword": "dar de si",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "id": 1431,
+      "headword": "dar faísca",
+      "pages": [
+        72
+      ]
+    },
+    {
+      "id": 1477,
+      "headword": "dar na bolha",
+      "pages": [
+        75
+      ]
+    },
+    {
+      "id": 1510,
+      "headword": "dar o salto",
+      "pages": [
+        76
+      ]
+    },
+    {
+      "id": 1521,
+      "headword": "dar palmadinhas nas costas",
+      "pages": [
+        76
+      ]
+    },
+    {
+      "id": 1522,
+      "headword": "dar palminhas",
+      "pages": [
+        76
+      ]
+    },
+    {
+      "id": 1526,
+      "headword": "dar parte",
+      "pages": [
+        76
+      ]
+    },
+    {
+      "id": 1532,
+      "headword": "dar que falar",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1537,
+      "headword": "dar-se ao luxo",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1538,
+      "headword": "dar-se ao trabalho",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1540,
+      "headword": "dar sebo nas botas",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1546,
+      "headword": "dar sinal",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1547,
+      "headword": "dar sinal de si",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1561,
+      "headword": "dar uma cabeçada",
+      "pages": [
+        77
+      ]
+    },
+    {
+      "id": 1603,
+      "headword": "da sua justiça",
+      "pages": [
+        79
+      ]
+    },
+    {
+      "id": 1604,
+      "headword": "da sua lavra",
+      "pages": [
+        79
+      ]
+    },
+    {
+      "id": 1614,
+      "headword": "debaixo do braço",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1617,
+      "headword": "de beiça",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1625,
+      "headword": "de cabeça",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1629,
+      "headword": "de calibre",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1630,
+      "headword": "de caminho",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1637,
+      "headword": "de cócoras",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1639,
+      "headword": "de cor",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1641,
+      "headword": "de cordel",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1642,
+      "headword": "de corpo inteiro",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1643,
+      "headword": "de corpo presente",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1653,
+      "headword": "de espada em riste",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1654,
+      "headword": "de facto",
+      "pages": [
+        80
+      ]
+    },
+    {
+      "id": 1661,
+      "headword": "de fresco",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1664,
+      "headword": "de há tempos a esta parte",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1666,
+      "headword": "de homem para homem",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1670,
+      "headword": "deitar a perder",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1671,
+      "headword": "deitar a rede",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1677,
+      "headword": "deitar corpo",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1683,
+      "headword": "deitar mau-olhado",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1685,
+      "headword": "deitar o coração ao largo",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1686,
+      "headword": "deitar o nariz de fora",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1689,
+      "headword": "deitar pimenta na língua",
+      "pages": [
+        81
+      ]
+    },
+    {
+      "id": 1692,
+      "headword": "deitar-se a adivinhar",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1699,
+      "headword": "deixar as coisas como estão",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1701,
+      "headword": "deixar em paz",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1709,
+      "headword": "deixar-se ir na corrente",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1711,
+      "headword": "deixemo-nos de conversas",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1714,
+      "headword": "de lança em riste",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1717,
+      "headword": "de longe em longe",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1718,
+      "headword": "de loucos",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1719,
+      "headword": "de má fama",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1720,
+      "headword": "de mais a mais",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1722,
+      "headword": "de mão em mão",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1727,
+      "headword": "de memória",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1728,
+      "headword": "de mim para mim",
+      "pages": [
+        82
+      ]
+    },
+    {
+      "id": 1730,
+      "headword": "de modo que",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1731,
+      "headword": "de molho",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1732,
+      "headword": "de momento a momento",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1736,
+      "headword": "de nada",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1738,
+      "headword": "dê no que der",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1740,
+      "headword": "dentro da ordem",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1742,
+      "headword": "de olhos tapados",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1746,
+      "headword": "de palmo e meio",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1747,
+      "headword": "de papo cheio",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1749,
+      "headword": "de par em par",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1751,
+      "headword": "de peito aberto",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1757,
+      "headword": "de porta em porta",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1765,
+      "headword": "de quarentena",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1766,
+      "headword": "de raspão",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1767,
+      "headword": "de rastos",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1768,
+      "headword": "de respeito",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1769,
+      "headword": "de ressuscitar um morto",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1771,
+      "headword": "derreter-se todo",
+      "pages": [
+        83
+      ]
+    },
+    {
+      "id": 1795,
+      "headword": "desenferrujar a língua",
+      "pages": [
+        85
+      ]
+    },
+    {
+      "id": 1810,
+      "headword": "de sol a sol",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "id": 1815,
+      "headword": "desta feita",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "id": 1830,
+      "headword": "de todo",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "id": 1831,
+      "headword": "de todo o coração",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "id": 1842,
+      "headword": "de um dia para o outro",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1844,
+      "headword": "de um lado para o outro",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1846,
+      "headword": "de um momento para o outro",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1847,
+      "headword": "de um rasgo",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1848,
+      "headword": "de um trago",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1849,
+      "headword": "deu o que tinha a dar",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1850,
+      "headword": "Deus é grande",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1851,
+      "headword": "Deus é testemunha",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1852,
+      "headword": "Deus seja louvado",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1855,
+      "headword": "Deus te livre!",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1859,
+      "headword": "dever muitas obrigações",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1863,
+      "headword": "de vida ou de morte",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1865,
+      "headword": "de vulto",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1868,
+      "headword": "dia a dia",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1871,
+      "headword": "Dia D",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1873,
+      "headword": "dia de finados",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1877,
+      "headword": "dia morto",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1879,
+      "headword": "dia sim, dia não",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1880,
+      "headword": "dias não são dias",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "id": 1900,
+      "headword": "dizer à boca cheia",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1903,
+      "headword": "dizer adeus à sorte",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1910,
+      "headword": "dizer da sua justiça",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1911,
+      "headword": "dizer de si para si",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1912,
+      "headword": "dizer do coração",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1913,
+      "headword": "dizer duas palavras",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1916,
+      "headword": "dizer mal da sua vida",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1917,
+      "headword": "dizer o que vem à boca",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1918,
+      "headword": "dizer para os seus botões",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1920,
+      "headword": "diz-me dessas",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1926,
+      "headword": "do bom e do melhor",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1927,
+      "headword": "dobrar a língua",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1928,
+      "headword": "dobrar a parada",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1931,
+      "headword": "dobras de oiro",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1932,
+      "headword": "doce como o mel",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "id": 1944,
+      "headword": "domínio público",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "id": 1945,
+      "headword": "Dom Juan",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "id": 1946,
+      "headword": "Dona Elvira",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "id": 1949,
+      "headword": "do peito",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "id": 1964,
+      "headword": "dormir o sono dos justos",
+      "pages": [
+        91
+      ]
+    },
+    {
+      "id": 1972,
+      "headword": "dos fracos não reza a história",
+      "pages": [
+        91
+      ]
+    },
+    {
+      "id": 1987,
+      "headword": "duma figa",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1988,
+      "headword": "duma pernada",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1994,
+      "headword": "é boa!",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1995,
+      "headword": "é bom para ir buscar a morte",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1997,
+      "headword": "é como quem diz",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1998,
+      "headword": "é da ponta da orelha",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 1999,
+      "headword": "é de apitos",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2001,
+      "headword": "é de fazer ressuscitar um morto",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2002,
+      "headword": "é de força!",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2003,
+      "headword": "é de gritos!",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2005,
+      "headword": "é de olhão!",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2011,
+      "headword": "e ele a dar-lhe",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2017,
+      "headword": "é fresco!",
+      "pages": [
+        92
+      ]
+    },
+    {
+      "id": 2022,
+      "headword": "ela por ela",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2023,
+      "headword": "ele é isso",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2026,
+      "headword": "ele lá sabe as linhas com que se cose",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2027,
+      "headword": "em aberto",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2029,
+      "headword": "em alto e bom som",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2032,
+      "headword": "em baixo",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2040,
+      "headword": "em boa ordem",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2045,
+      "headword": "em carne e osso",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2050,
+      "headword": "em cima da hora",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2052,
+      "headword": "em claro",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2053,
+      "headword": "em consciência",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2054,
+      "headword": "em corpo e alma",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2055,
+      "headword": "em dado momento",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2056,
+      "headword": "em demasia",
+      "pages": [
+        93
+      ]
+    },
+    {
+      "id": 2062,
+      "headword": "em espírito",
+      "pages": [
+        94
+      ]
+    },
+    {
+      "id": 2063,
+      "headword": "em falos",
+      "pages": [
+        94
+      ]
+    },
+    {
+      "id": 2064,
+      "headword": "em família",
+      "pages": [
+        94
+      ]
+    },
+    {
+      "id": 2089,
+      "headword": "em pessoa",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2091,
+      "headword": "em pleno dia",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2092,
+      "headword": "em polvorosa",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2102,
+      "headword": "em risco de vida",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2104,
+      "headword": "em suma",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2105,
+      "headword": "em surdina",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2107,
+      "headword": "em todo o caso",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2114,
+      "headword": "em vida",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "id": 2129,
+      "headword": "encher o saco",
+      "pages": [
+        96
+      ]
+    },
+    {
+      "id": 2135,
+      "headword": "– Belas pernas... A que horas abrem?",
+      "pages": [
+        97
+      ]
+    },
+    {
+      "id": 2139,
+      "headword": "– Só custa a cabeça que o resto é pescoço!",
+      "pages": [
+        97
+      ]
+    },
+    {
+      "id": 2140,
+      "headword": "– Que rica sardinha para o meu gatinho...",
+      "pages": [
+        97
+      ]
+    },
+    {
+      "id": 2168,
+      "headword": "enfeitar o ramalhete",
+      "pages": [
+        98
+      ]
+    },
+    {
+      "id": 2169,
+      "headword": "enfeitar-se com penas de pavão",
+      "pages": [
+        98
+      ]
+    },
+    {
+      "id": 2209,
+      "headword": "entornar o caldo",
+      "pages": [
+        99
+      ]
+    },
+    {
+      "id": 2211,
+      "headword": "entradas de leão e saídas de sendeiro",
+      "pages": [
+        99
+      ]
+    },
+    {
+      "id": 2212,
+      "headword": "entrar a matar",
+      "pages": [
+        99
+      ]
+    },
+    {
+      "id": 2214,
+      "headword": "entrar em órbita",
+      "pages": [
+        99
+      ]
+    },
+    {
+      "id": 2232,
+      "headword": "entre mãos",
+      "pages": [
+        100
+      ]
+    },
+    {
+      "id": 2239,
+      "headword": "é o que se leva deste mundo",
+      "pages": [
+        100
+      ]
+    },
+    {
+      "id": 2243,
+      "headword": "é o vais!",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2244,
+      "headword": "é pá!",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2245,
+      "headword": "é pegar ou largar",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2248,
+      "headword": "equilibrar o barco",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2253,
+      "headword": "é remédio santo",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2254,
+      "headword": "errar é humano",
+      "pages": [
+        101
+      ]
+    },
+    {
+      "id": 2315,
+      "headword": "espanta ratos",
+      "pages": [
+        104
+      ]
+    },
+    {
+      "id": 2331,
+      "headword": "espírito de corpo",
+      "pages": [
+        104
+      ]
+    },
+    {
+      "id": 2342,
+      "headword": "essa é boa",
+      "pages": [
+        105
+      ]
+    },
+    {
+      "id": 2343,
+      "headword": "essa é forte",
+      "pages": [
+        105
+      ]
+    },
+    {
+      "id": 2345,
+      "headword": "essa é que é essa",
+      "pages": [
+        105
+      ]
+    },
+    {
+      "id": 2351,
+      "headword": "estado de graça",
+      "pages": [
+        105
+      ]
+    },
+    {
+      "id": 2367,
+      "headword": "estar à altura",
+      "pages": [
+        106
+      ]
+    },
+    {
+      "id": 2407,
+      "headword": "estar a tenir",
+      "pages": [
+        107
+      ]
+    },
+    {
+      "id": 2422,
+      "headword": "estar cheio dele",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "id": 2423,
+      "headword": "estar com a bolha",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "id": 2479,
+      "headword": "estar de perna estendida",
+      "pages": [
+        111
+      ]
+    },
+    {
+      "id": 2484,
+      "headword": "estar em brasa",
+      "pages": [
+        111
+      ]
+    },
+    {
+      "id": 2491,
+      "headword": "estar em grande",
+      "pages": [
+        111
+      ]
+    },
+    {
+      "id": 2492,
+      "headword": "estar em jogo",
+      "pages": [
+        111
+      ]
+    },
+    {
+      "id": 2501,
+      "headword": "estar em todas",
+      "pages": [
+        111
+      ]
+    },
+    {
+      "id": 2570,
+      "headword": "estar na engorda",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2571,
+      "headword": "estar na fila",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2575,
+      "headword": "estar na jogada",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2581,
+      "headword": "estar na onda",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2582,
+      "headword": "estar na última",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2584,
+      "headword": "estar no estaleiro",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2590,
+      "headword": "estar nos braços de morfeu",
+      "pages": [
+        115
+      ]
+    },
+    {
+      "id": 2598,
+      "headword": "estar pelas costuras",
+      "pages": [
+        116
+      ]
+    },
+    {
+      "id": 2613,
+      "headword": "estar-se a ver",
+      "pages": [
+        116
+      ]
+    },
+    {
+      "id": 2619,
+      "headword": "estar sobre brasas",
+      "pages": [
+        117
+      ]
+    },
+    {
+      "id": 2657,
+      "headword": "estou-te a ver",
+      "pages": [
+        118
+      ]
+    },
+    {
+      "id": 2663,
+      "headword": "estrela cadente",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2678,
+      "headword": "é tal e coisa",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2681,
+      "headword": "é todo doçuras",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2683,
+      "headword": "e troca o passo",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2685,
+      "headword": "eu cá me entendo",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2686,
+      "headword": "eu cá para mim",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "id": 2689,
+      "headword": "é uma anedota",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2691,
+      "headword": "é uma brincadeira",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2692,
+      "headword": "é uma chachada",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2694,
+      "headword": "eu na minha",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2697,
+      "headword": "eu seja ceguinho",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2699,
+      "headword": "é vê-las ir",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2700,
+      "headword": "exame de consciência",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2704,
+      "headword": "expressão corporal",
+      "pages": [
+        120
+      ]
+    },
+    {
+      "id": 2722,
+      "headword": "falar por falar",
+      "pages": [
+        121
+      ]
+    },
+    {
+      "id": 2723,
+      "headword": "falar por meias palavras",
+      "pages": [
+        121
+      ]
+    },
+    {
+      "id": 2776,
+      "headword": "fazer andar a cabeça à roda",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "id": 2793,
+      "headword": "fazer cara feia",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "id": 2812,
+      "headword": "fazer de conta",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2817,
+      "headword": "fazer e acontecer",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2818,
+      "headword": "fazer efeito",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2821,
+      "headword": "fazer em tiras",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2822,
+      "headword": "fazer escabeche",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2823,
+      "headword": "fazer escola",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2824,
+      "headword": "fazer espécie",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2827,
+      "headword": "fazer falar",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2830,
+      "headword": "fazer fé",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2831,
+      "headword": "fazer figas",
+      "pages": [
+        124
+      ]
+    },
+    {
+      "id": 2838,
+      "headword": "fazer força",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2840,
+      "headword": "fazer furor",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2841,
+      "headword": "fazer gala",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2843,
+      "headword": "fazer gracinhas",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2845,
+      "headword": "fazer ideia",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2846,
+      "headword": "fazer impressão",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2847,
+      "headword": "fazer jeito",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2848,
+      "headword": "fazer jus",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2858,
+      "headword": "fazer menção",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2863,
+      "headword": "fazer nome",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2864,
+      "headword": "fazer número",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2865,
+      "headword": "fazer o bem",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2869,
+      "headword": "fazer o gosto ao dedo",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2872,
+      "headword": "fazer o papel de",
+      "pages": [
+        125
+      ]
+    },
+    {
+      "id": 2881,
+      "headword": "fazer panelinha",
+      "pages": [
+        126
+      ]
+    },
+    {
+      "id": 2884,
+      "headword": "fazer pender a balança",
+      "pages": [
+        126
+      ]
+    },
+    {
+      "id": 2887,
+      "headword": "fazer projectos no ar",
+      "pages": [
+        126
+      ]
+    },
+    {
+      "id": 2898,
+      "headword": "fazer sede",
+      "pages": [
+        126
+      ]
+    },
+    {
+      "id": 2904,
+      "headword": "fazer-se gente",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2906,
+      "headword": "fazer sentir",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2907,
+      "headword": "fazer-se pagar",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2909,
+      "headword": "fazer-se valer",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2910,
+      "headword": "fazer sinal",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2915,
+      "headword": "fazer tempo",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2924,
+      "headword": "fazer uma necessidade",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2927,
+      "headword": "fazer uma razia",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "id": 2940,
+      "headword": "fazer um frete",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2941,
+      "headword": "fazer um jeito",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2942,
+      "headword": "fazer um manguito",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2944,
+      "headword": "fazer um quatro",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2945,
+      "headword": "fazer um triste papel",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2947,
+      "headword": "fazer ver",
+      "pages": [
+        128
+      ]
+    },
+    {
+      "id": 2962,
+      "headword": "fechar os olhos ao perigo",
+      "pages": [
+        129
+      ]
+    },
+    {
+      "id": 2964,
+      "headword": "fecundação artificial",
+      "pages": [
+        129
+      ]
+    },
+    {
+      "id": 2971,
+      "headword": "feira das vaidades",
+      "pages": [
+        129
+      ]
+    },
+    {
+      "id": 3000,
+      "headword": "ficar à dependura",
+      "pages": [
+        131
+      ]
+    },
+    {
+      "id": 3001,
+      "headword": "ficar aguado",
+      "pages": [
+        131
+      ]
+    },
+    {
+      "id": 3004,
+      "headword": "ficar a rir-se",
+      "pages": [
+        131
+      ]
+    },
+    {
+      "id": 3007,
+      "headword": "ficar a tinir",
+      "pages": [
+        131
+      ]
+    },
+    {
+      "id": 3010,
+      "headword": "ficar baço",
+      "pages": [
+        131
+      ]
+    },
+    {
+      "id": 3027,
+      "headword": "ficar de fora",
+      "pages": [
+        132
+      ]
+    },
+    {
+      "id": 3032,
+      "headword": "ficar de pé",
+      "pages": [
+        132
+      ]
+    },
+    {
+      "id": 3034,
+      "headword": "ficar de quarentena",
+      "pages": [
+        132
+      ]
+    },
+    {
+      "id": 3035,
+      "headword": "ficar descalço",
+      "pages": [
+        132
+      ]
+    },
+    {
+      "id": 3040,
+      "headword": "ficar em jejum",
+      "pages": [
+        132
+      ]
+    },
+    {
+      "id": 3071,
+      "headword": "ficar para aí",
+      "pages": [
+        134
+      ]
+    },
+    {
+      "id": 3081,
+      "headword": "ficar por cima",
+      "pages": [
+        134
+      ]
+    },
+    {
+      "id": 3083,
+      "headword": "ficar sem conserto",
+      "pages": [
+        134
+      ]
+    },
+    {
+      "id": 3088,
+      "headword": "ficar todo inchado",
+      "pages": [
+        134
+      ]
+    },
+    {
+      "id": 3090,
+      "headword": "ficar trombudo",
+      "pages": [
+        134
+      ]
+    },
+    {
+      "id": 3096,
+      "headword": "fiel farrapo",
+      "pages": [
+        135
+      ]
+    },
+    {
+      "id": 3099,
+      "headword": "figuras de retórica",
+      "pages": [
+        135
+      ]
+    },
+    {
+      "id": 3115,
+      "headword": "filho pródigo",
+      "pages": [
+        135
+      ]
+    },
+    {
+      "id": 3118,
+      "headword": "fina flor",
+      "pages": [
+        135
+      ]
+    },
+    {
+      "id": 3127,
+      "headword": "fio da meada",
+      "pages": [
+        136
+      ]
+    },
+    {
+      "id": 3128,
+      "headword": "fique lá com esta",
+      "pages": [
+        136
+      ]
+    },
+    {
+      "id": 3157,
+      "headword": "fogos reais",
+      "pages": [
+        137
+      ]
+    },
+    {
+      "id": 3175,
+      "headword": "fora da lei",
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": 3176,
+      "headword": "fora das marcas",
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": 3177,
+      "headword": "fora de horas",
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": 3181,
+      "headword": "forças vivas",
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": 3184,
+      "headword": "foro íntimo",
+      "pages": [
+        138
+      ]
+    },
+    {
+      "id": 3203,
+      "headword": "fruto proibido",
+      "pages": [
+        139
+      ]
+    },
+    {
+      "id": 3219,
+      "headword": "furar a greve",
+      "pages": [
+        139
+      ]
+    },
+    {
+      "id": 3223,
+      "headword": "fuso horário",
+      "pages": [
+        139
+      ]
+    },
+    {
+      "id": 3229,
+      "headword": "gaba-te cesta!",
+      "pages": [
+        140
+      ]
+    },
+    {
+      "id": 3264,
+      "headword": "ganhar tempo",
+      "pages": [
+        142
+      ]
+    },
+    {
+      "id": 3266,
+      "headword": "ganhar terreno",
+      "pages": [
+        142
+      ]
+    },
+    {
+      "id": 3294,
+      "headword": "gente de fora",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3296,
+      "headword": "gente de paz",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3297,
+      "headword": "gente fina é outra coisa",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3298,
+      "headword": "geração rasca",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3302,
+      "headword": "ginástica rítmica",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3308,
+      "headword": "golpe de asa",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3309,
+      "headword": "golpe de vista",
+      "pages": [
+        143
+      ]
+    },
+    {
+      "id": 3318,
+      "headword": "gordura é formosura",
+      "pages": [
+        144
+      ]
+    },
+    {
+      "id": 3324,
+      "headword": "gostos não se discutem",
+      "pages": [
+        144
+      ]
+    },
+    {
+      "id": 3329,
+      "headword": "graças a Deus",
+      "pages": [
+        144
+      ]
+    },
+    {
+      "id": 3331,
+      "headword": "gramar a bucha",
+      "pages": [
+        144
+      ]
+    },
+    {
+      "id": 3359,
+      "headword": "grunho",
+      "pages": [
+        145
+      ]
+    },
+    {
+      "id": 3361,
+      "headword": "guarda avançada",
+      "pages": [
+        145
+      ]
+    },
+    {
+      "id": 3365,
+      "headword": "guerra de nervos",
+      "pages": [
+        146
+      ]
+    },
+    {
+      "id": 3366,
+      "headword": "guerra fria",
+      "pages": [
+        146
+      ]
+    },
+    {
+      "id": 3380,
+      "headword": "Há ... mas são verdes",
+      "pages": [
+        146
+      ]
+    },
+    {
+      "id": 3393,
+      "headword": "homem ao mar",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3394,
+      "headword": "homem da rua",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3395,
+      "headword": "homem de Deus",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3397,
+      "headword": "homem do povo",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3398,
+      "headword": "homem público",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3402,
+      "headword": "horas de ponta",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3406,
+      "headword": "idade avançada",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3407,
+      "headword": "idade da inocência",
+      "pages": [
+        147
+      ]
+    },
+    {
+      "id": 3427,
+      "headword": "in extremis",
+      "pages": [
+        148
+      ]
+    },
+    {
+      "id": 3444,
+      "headword": "in vitro",
+      "pages": [
+        149
+      ]
+    },
+    {
+      "id": 3483,
+      "headword": "ir com o Armando: um bocadinho a pé, um",
+      "pages": [
+        150
+      ]
+    },
+    {
+      "id": 3526,
+      "headword": "ir por conta",
+      "pages": [
+        153
+      ]
+    },
+    {
+      "id": 3550,
+      "headword": "já agora",
+      "pages": [
+        153
+      ]
+    },
+    {
+      "id": 3557,
+      "headword": "já disse!",
+      "pages": [
+        154
+      ]
+    },
+    {
+      "id": 3572,
+      "headword": "jardim botânico",
+      "pages": [
+        154
+      ]
+    },
+    {
+      "id": 3585,
+      "headword": "jogar às escondidas",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3587,
+      "headword": "jogar fora",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3590,
+      "headword": "jogar uma cartada",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3592,
+      "headword": "jogo do pau",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3594,
+      "headword": "jogos de azar",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3600,
+      "headword": "juízo final",
+      "pages": [
+        155
+      ]
+    },
+    {
+      "id": 3612,
+      "headword": "lado a lado",
+      "pages": [
+        156
+      ]
+    },
+    {
+      "id": 3615,
+      "headword": "lafarúzio",
+      "pages": [
+        156
+      ]
+    },
+    {
+      "id": 3632,
+      "headword": "lamber-se todo",
+      "pages": [
+        157
+      ]
+    },
+    {
+      "id": 3641,
+      "headword": "lançar às feras",
+      "pages": [
+        157
+      ]
+    },
+    {
+      "id": 3654,
+      "headword": "largar o osso",
+      "pages": [
+        158
+      ]
+    },
+    {
+      "id": 3674,
+      "headword": "ler a cartilha a",
+      "pages": [
+        158
+      ]
+    },
+    {
+      "id": 3680,
+      "headword": "ler pela mesma cartilha",
+      "pages": [
+        159
+      ]
+    },
+    {
+      "id": 3705,
+      "headword": "levar a sua conta",
+      "pages": [
+        160
+      ]
+    },
+    {
+      "id": 3706,
+      "headword": "levar boa-vida",
+      "pages": [
+        160
+      ]
+    },
+    {
+      "id": 3732,
+      "headword": "levar um rombo",
+      "pages": [
+        161
+      ]
+    },
+    {
+      "id": 3758,
+      "headword": "limpar o salão",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3767,
+      "headword": "língua de perguntador",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3768,
+      "headword": "língua de trapos",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3771,
+      "headword": "linha da frente",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3774,
+      "headword": "literatura de cordel",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3780,
+      "headword": "lobo com pele de carneiro",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3782,
+      "headword": "logo vi!",
+      "pages": [
+        163
+      ]
+    },
+    {
+      "id": 3793,
+      "headword": "lutar contra moinhos de vento",
+      "pages": [
+        164
+      ]
+    },
+    {
+      "id": 3796,
+      "headword": "macacos me mordam!",
+      "pages": [
+        164
+      ]
+    },
+    {
+      "id": 3798,
+      "headword": "má cara",
+      "pages": [
+        164
+      ]
+    },
+    {
+      "id": 3811,
+      "headword": "magarefe",
+      "pages": [
+        164
+      ]
+    },
+    {
+      "id": 3827,
+      "headword": "mais ou menos",
+      "pages": [
+        165
+      ]
+    },
+    {
+      "id": 3840,
+      "headword": "mal empregado",
+      "pages": [
+        166
+      ]
+    },
+    {
+      "id": 3843,
+      "headword": "malhar com os ossos",
+      "pages": [
+        166
+      ]
+    },
+    {
+      "id": 3851,
+      "headword": "malta da pesada",
+      "pages": [
+        166
+      ]
+    },
+    {
+      "id": 3857,
+      "headword": "mamar na teta da vaca",
+      "pages": [
+        166
+      ]
+    },
+    {
+      "id": 3897,
+      "headword": "manso como um cordeiro",
+      "pages": [
+        168
+      ]
+    },
+    {
+      "id": 3900,
+      "headword": "manter à distância",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3901,
+      "headword": "manter à rédea curta",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3903,
+      "headword": "mão amiga",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3908,
+      "headword": "mãos ao ar!",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3910,
+      "headword": "mãos de fada",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3917,
+      "headword": "marcar pontos",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "id": 3946,
+      "headword": "massa folhada",
+      "pages": [
+        170
+      ]
+    },
+    {
+      "id": 3949,
+      "headword": "mastronço",
+      "pages": [
+        171
+      ]
+    },
+    {
+      "id": 3970,
+      "headword": "maus tratos",
+      "pages": [
+        171
+      ]
+    },
+    {
+      "id": 3976,
+      "headword": "mea culpa",
+      "pages": [
+        172
+      ]
+    },
+    {
+      "id": 3989,
+      "headword": "meia irmã",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "id": 3990,
+      "headword": "meia leca",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "id": 3993,
+      "headword": "meias solas",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "id": 4007,
+      "headword": "menina e moça",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "id": 4010,
+      "headword": "Menino Jesus",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "id": 4025,
+      "headword": "mesa redonda",
+      "pages": [
+        174
+      ]
+    },
+    {
+      "id": 4041,
+      "headword": "meter a unha",
+      "pages": [
+        175
+      ]
+    },
+    {
+      "id": 4042,
+      "headword": "meter a uso",
+      "pages": [
+        175
+      ]
+    },
+    {
+      "id": 4073,
+      "headword": "meter uma cunha",
+      "pages": [
+        176
+      ]
+    },
+    {
+      "id": 4075,
+      "headword": "meu caro",
+      "pages": [
+        176
+      ]
+    },
+    {
+      "id": 4119,
+      "headword": "modo de ser",
+      "pages": [
+        178
+      ]
+    },
+    {
+      "id": 4120,
+      "headword": "modo de vida",
+      "pages": [
+        178
+      ]
+    },
+    {
+      "id": 4121,
+      "headword": "moeda corrente",
+      "pages": [
+        178
+      ]
+    },
+    {
+      "id": 4122,
+      "headword": "moeda de troca",
+      "pages": [
+        178
+      ]
+    },
+    {
+      "id": 4139,
+      "headword": "monco caído",
+      "pages": [
+        179
+      ]
+    },
+    {
+      "id": 4153,
+      "headword": "morada eterna",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4157,
+      "headword": "morde aqui!",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4164,
+      "headword": "morra Marta, morra farta",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4171,
+      "headword": "morrer de morte natural",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4172,
+      "headword": "morrer de sede",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4176,
+      "headword": "morsar",
+      "pages": [
+        180
+      ]
+    },
+    {
+      "id": 4183,
+      "headword": "mostrar má cara",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4184,
+      "headword": "mostrar o jogo",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4189,
+      "headword": "mover o céu e a terra",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4193,
+      "headword": "mudar de roupa",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4199,
+      "headword": "muito embora",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4200,
+      "headword": "muito meu",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "id": 4212,
+      "headword": "mundo cão",
+      "pages": [
+        182
+      ]
+    },
+    {
+      "id": 4216,
+      "headword": "música pimba",
+      "pages": [
+        182
+      ]
+    },
+    {
+      "id": 4217,
+      "headword": "na berlinda",
+      "pages": [
+        182
+      ]
+    },
+    {
+      "id": 4221,
+      "headword": "na cara",
+      "pages": [
+        182
+      ]
+    },
+    {
+      "id": 4228,
+      "headword": "nadar em seco",
+      "pages": [
+        182
+      ]
+    },
+    {
+      "id": 4236,
+      "headword": "na hora H",
+      "pages": [
+        183
+      ]
+    },
+    {
+      "id": 4240,
+      "headword": "na linha",
+      "pages": [
+        183
+      ]
+    },
+    {
+      "id": 4241,
+      "headword": "na manga",
+      "pages": [
+        183
+      ]
+    },
+    {
+      "id": 4242,
+      "headword": "na mão",
+      "pages": [
+        183
+      ]
+    },
+    {
+      "id": 4245,
+      "headword": "na melhor das intenções",
+      "pages": [
+        183
+      ]
+    },
+    {
+      "id": 4308,
+      "headword": "não é por aí que o gato vai às filhoses",
+      "pages": [
+        185
+      ]
+    },
+    {
+      "id": 4312,
+      "headword": "não estar com meias medidas",
+      "pages": [
+        185
+      ]
+    },
+    {
+      "id": 4313,
+      "headword": "não estar em si",
+      "pages": [
+        185
+      ]
+    },
+    {
+      "id": 4314,
+      "headword": "não estar nas nossas mãos",
+      "pages": [
+        185
+      ]
+    },
+    {
+      "id": 4316,
+      "headword": "não estar para aí virado",
+      "pages": [
+        185
+      ]
+    },
+    {
+      "id": 4326,
+      "headword": "não fazer farinha",
+      "pages": [
+        186
+      ]
+    },
+    {
+      "id": 4329,
+      "headword": "não fazer milagres",
+      "pages": [
+        186
+      ]
+    },
+    {
+      "id": 4334,
+      "headword": "não fazer por menos",
+      "pages": [
+        186
+      ]
+    },
+    {
+      "id": 4339,
+      "headword": "não ficar a dever nada",
+      "pages": [
+        186
+      ]
+    },
+    {
+      "id": 4350,
+      "headword": "não há duas sem três",
+      "pages": [
+        187
+      ]
+    },
+    {
+      "id": 4354,
+      "headword": "não há meio",
+      "pages": [
+        187
+      ]
+    },
+    {
+      "id": 4359,
+      "headword": "não há pai",
+      "pages": [
+        187
+      ]
+    },
+    {
+      "id": 4361,
+      "headword": "não há que fiar",
+      "pages": [
+        187
+      ]
+    },
+    {
+      "id": 4379,
+      "headword": "não lhe tocar nem com um dedo",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "id": 4387,
+      "headword": "não me lixem!",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "id": 4391,
+      "headword": "não me venhas lá com essa",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "id": 4398,
+      "headword": "não olhar a despesas",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "id": 4400,
+      "headword": "não passar de",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "id": 4411,
+      "headword": "não poder deixar de ser",
+      "pages": [
+        189
+      ]
+    },
+    {
+      "id": 4413,
+      "headword": "não poder ver",
+      "pages": [
+        189
+      ]
+    },
+    {
+      "id": 4414,
+      "headword": "não pode ser nada",
+      "pages": [
+        189
+      ]
+    },
+    {
+      "id": 4418,
+      "headword": "não poupar ninguém",
+      "pages": [
+        189
+      ]
+    },
+    {
+      "id": 4426,
+      "headword": "não resta a menor dúvida",
+      "pages": [
+        190
+      ]
+    },
+    {
+      "id": 4441,
+      "headword": "não sei o que dizer",
+      "pages": [
+        190
+      ]
+    },
+    {
+      "id": 4445,
+      "headword": "não sei se me entende!",
+      "pages": [
+        190
+      ]
+    },
+    {
+      "id": 4461,
+      "headword": "não ser de cerimónia",
+      "pages": [
+        191
+      ]
+    },
+    {
+      "id": 4491,
+      "headword": "não ter nada com isso",
+      "pages": [
+        192
+      ]
+    },
+    {
+      "id": 4497,
+      "headword": "não ter por onde se lhe pegue",
+      "pages": [
+        192
+      ]
+    },
+    {
+      "id": 4499,
+      "headword": "não ter rei nem roque",
+      "pages": [
+        192
+      ]
+    },
+    {
+      "id": 4510,
+      "headword": "não tinha mais que fazer!",
+      "pages": [
+        193
+      ]
+    },
+    {
+      "id": 4512,
+      "headword": "não tirar os olhos de",
+      "pages": [
+        193
+      ]
+    },
+    {
+      "id": 4526,
+      "headword": "não ver razão",
+      "pages": [
+        193
+      ]
+    },
+    {
+      "id": 4534,
+      "headword": "na praça pública",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4536,
+      "headword": "na real gana",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4542,
+      "headword": "nasceram um para o outro",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4545,
+      "headword": "nascer uma alma nova",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4548,
+      "headword": "na sombra",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4550,
+      "headword": "nas pontas dos pés",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4556,
+      "headword": "necessitar como de pão para a boca",
+      "pages": [
+        194
+      ]
+    },
+    {
+      "id": 4562,
+      "headword": "nem assim nem assado",
+      "pages": [
+        195
+      ]
+    },
+    {
+      "id": 4564,
+      "headword": "nem dado",
+      "pages": [
+        195
+      ]
+    },
+    {
+      "id": 4582,
+      "headword": "nem se fala!",
+      "pages": [
+        195
+      ]
+    },
+    {
+      "id": 4584,
+      "headword": "nem só de pão vive o homem",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4589,
+      "headword": "nem tudo são rosas",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4590,
+      "headword": "nem uma nem duas",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4591,
+      "headword": "nem uma sede de água",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4597,
+      "headword": "nervos em franja",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4600,
+      "headword": "nessa não caio eu",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "id": 4608,
+      "headword": "ninguém merece!",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4613,
+      "headword": "nível de vida",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4614,
+      "headword": "no bem bom",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4615,
+      "headword": "no cabo do mundo",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4626,
+      "headword": "nome de guerra",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4629,
+      "headword": "no melhor da festa",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4630,
+      "headword": "no melhor dos mundos",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4632,
+      "headword": "no mesmo instante",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4633,
+      "headword": "nó nas tripas",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4634,
+      "headword": "no papo",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4635,
+      "headword": "no pino do Verão",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4637,
+      "headword": "no que toca",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4641,
+      "headword": "nos braços de Morfeu",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4642,
+      "headword": "nós dos dedos",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4644,
+      "headword": "nos nossos dias",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "id": 4649,
+      "headword": "no tempo dos Afonsinhos",
+      "pages": [
+        198
+      ]
+    },
+    {
+      "id": 4651,
+      "headword": "no tocante",
+      "pages": [
+        198
+      ]
+    },
+    {
+      "id": 4664,
+      "headword": "num pulo",
+      "pages": [
+        198
+      ]
+    },
+    {
+      "id": 4677,
+      "headword": "objecção de consciência",
+      "pages": [
+        199
+      ]
+    },
+    {
+      "id": 4681,
+      "headword": "obra acabada",
+      "pages": [
+        199
+      ]
+    },
+    {
+      "id": 4695,
+      "headword": "ó da casa!",
+      "pages": [
+        199
+      ]
+    },
+    {
+      "id": 4696,
+      "headword": "ó da guarda!",
+      "pages": [
+        199
+      ]
+    },
+    {
+      "id": 4699,
+      "headword": "ódio mortal",
+      "pages": [
+        199
+      ]
+    },
+    {
+      "id": 4709,
+      "headword": "oitavas da consciência",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4711,
+      "headword": "olha o passarinho",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4719,
+      "headword": "olhar pelo canto do olho",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4723,
+      "headword": "olho alerta",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4729,
+      "headword": "olhos trocados",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4730,
+      "headword": "o mais tardar",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4732,
+      "headword": "o meu homem",
+      "pages": [
+        200
+      ]
+    },
+    {
+      "id": 4741,
+      "headword": "ó patego olha o balão",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4742,
+      "headword": "o peso dos anos",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4744,
+      "headword": "ópio do povo",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4752,
+      "headword": "o que lá vai, lá vai",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4754,
+      "headword": "o que não mata engorda",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4755,
+      "headword": "o que para aí vai!",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4757,
+      "headword": "o que vem à rede é peixe",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4764,
+      "headword": "ora toma!",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4767,
+      "headword": "ora viva!",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4768,
+      "headword": "ora viva quem é uma flor!",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4770,
+      "headword": "ordem do dia",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "id": 4779,
+      "headword": "orelhas de burro",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4780,
+      "headword": "o resto são cantigas",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4784,
+      "headword": "o sangue gelou-se-me nas veias",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4786,
+      "headword": "os dados estão lançados",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4787,
+      "headword": "o segredo é a alma do negócio",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4788,
+      "headword": "os extremos tocam-se",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4791,
+      "headword": "os meus pecados",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4792,
+      "headword": "os nervos em franja",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4794,
+      "headword": "os primeiros passos",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4800,
+      "headword": "o suor do rosto",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4804,
+      "headword": "o todo poderoso",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4807,
+      "headword": "ou haja moralidade ou comem todos",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "id": 4811,
+      "headword": "ouro negro",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "id": 4813,
+      "headword": "outra banda",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "id": 4814,
+      "headword": "outra música",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "id": 4818,
+      "headword": "outro que tal!",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "id": 4819,
+      "headword": "outro tanto",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "id": 4845,
+      "headword": "pagar e não bufar",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4855,
+      "headword": "palavra por palavra",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4856,
+      "headword": "palavra puxa palavra",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4858,
+      "headword": "palavras cruzadas",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4859,
+      "headword": "palavras leva-as o vento",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4860,
+      "headword": "palavras ocas",
+      "pages": [
+        204
+      ]
+    },
+    {
+      "id": 4872,
+      "headword": "palmo a palmo",
+      "pages": [
+        205
+      ]
+    },
+    {
+      "id": 4889,
+      "headword": "pantomineira",
+      "pages": [
+        206
+      ]
+    },
+    {
+      "id": 4904,
+      "headword": "para as bandas",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "id": 4906,
+      "headword": "para a vida e para a morte",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "id": 4913,
+      "headword": "para o que der e vier",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "id": 4916,
+      "headword": "para quem é, bacalhau basta!",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "id": 4960,
+      "headword": "passaporte para o outro mundo",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": 4963,
+      "headword": "passar adiante",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": 4967,
+      "headword": "passar a limpo",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": 4979,
+      "headword": "passar de mão em mão",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": 4980,
+      "headword": "passar de moda",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": 4990,
+      "headword": "passar rente",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 4991,
+      "headword": "passar resvés",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 4992,
+      "headword": "passar revista às tropas",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 4995,
+      "headword": "passar uma esponja",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 4998,
+      "headword": "passar um cheque em branco",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 5000,
+      "headword": "passar vergonhas",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 5002,
+      "headword": "passos perdidos",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 5004,
+      "headword": "pastar a vaca",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 5006,
+      "headword": "pataca a mim, pataca a ti",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": 5022,
+      "headword": "pau de vassoura",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": 5025,
+      "headword": "paz podre",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": 5034,
+      "headword": "pedir a palavra",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5037,
+      "headword": "pedir de boca",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5039,
+      "headword": "pedir muito",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5040,
+      "headword": "pedir para as almas",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5044,
+      "headword": "pedra filosofal",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5046,
+      "headword": "pedras preciosas",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": 5056,
+      "headword": "pegar ou largar",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": 5076,
+      "headword": "pelo andar da carruagem",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5078,
+      "headword": "pelo beiço",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5081,
+      "headword": "pelo próprio punho",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5082,
+      "headword": "pelo que me toca",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5083,
+      "headword": "pelos bonitos olhos",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5095,
+      "headword": "pensar com os seus botões",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5098,
+      "headword": "pensar que o mundo se acaba",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5101,
+      "headword": "pequenos nadas",
+      "pages": [
+        215
+      ]
+    },
+    {
+      "id": 5105,
+      "headword": "perdas e danos",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5108,
+      "headword": "perder aos pontos",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5110,
+      "headword": "perder a parada",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5119,
+      "headword": "perder o sono",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5120,
+      "headword": "perder o uso da razão",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5121,
+      "headword": "perder-se na noite dos tempos",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5122,
+      "headword": "perder-se por saias",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5123,
+      "headword": "perder terreno",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "id": 5146,
+      "headword": "pesar os prós e os contras",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "id": 5148,
+      "headword": "peso bruto",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "id": 5149,
+      "headword": "peso líquido",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "id": 5150,
+      "headword": "peso morto",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "id": 5186,
+      "headword": "pilha de nervos",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "id": 5242,
+      "headword": "piscar o olho",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "id": 5261,
+      "headword": "pobreza franciscana",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "id": 5263,
+      "headword": "poça de sangue",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "id": 5278,
+      "headword": "pois, não!",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "id": 5279,
+      "headword": "pois, sim!",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "id": 5281,
+      "headword": "polir as pedras da calçada",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "id": 5284,
+      "headword": "pomba da paz",
+      "pages": [
+        225
+      ]
+    },
+    {
+      "id": 5311,
+      "headword": "pôr a casa em ordem",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5313,
+      "headword": "pôr a descoberto",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5314,
+      "headword": "pôr a dormir",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5315,
+      "headword": "pôr a escrita em dia",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5316,
+      "headword": "por agora",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5320,
+      "headword": "pôr à margem",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5321,
+      "headword": "pôr a mesa",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5325,
+      "headword": "pôr ao corrente",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5329,
+      "headword": "pôr a salvo",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5331,
+      "headword": "pôr as coisas nos eixos",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5334,
+      "headword": "por assim dizer",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5335,
+      "headword": "por atacado",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5336,
+      "headword": "pôr a um canto",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5337,
+      "headword": "por avião",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5341,
+      "headword": "por causa da tosse",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5345,
+      "headword": "por conta",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5346,
+      "headword": "por conta da casa",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5347,
+      "headword": "por conta, peso e medida",
+      "pages": [
+        226
+      ]
+    },
+    {
+      "id": 5352,
+      "headword": "pôr de molho",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5353,
+      "headword": "pôr de pantanas",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5354,
+      "headword": "pôr de rastos",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5355,
+      "headword": "por descargo de consciência",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5356,
+      "headword": "por detrás da cortina",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5357,
+      "headword": "pôr e dispor",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5358,
+      "headword": "pôr em fanicos",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5359,
+      "headword": "pôr em jogo",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5360,
+      "headword": "pôr em pé",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5361,
+      "headword": "pôr em prática",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5363,
+      "headword": "por entre os dedos",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5364,
+      "headword": "por esse andar",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5366,
+      "headword": "por exclusão de partes",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5367,
+      "headword": "por extenso",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5369,
+      "headword": "pôr fim à vida",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5370,
+      "headword": "por fora",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5371,
+      "headword": "por força",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5372,
+      "headword": "por fortuna",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5373,
+      "headword": "por instinto",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5374,
+      "headword": "por inteiro",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5375,
+      "headword": "por junto",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5377,
+      "headword": "por maioria de razão",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5378,
+      "headword": "por mais que me digam",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5379,
+      "headword": "por mal dos meus pecados!",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5380,
+      "headword": "por meias palavras",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5385,
+      "headword": "por milagre",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5386,
+      "headword": "por momentos",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5391,
+      "headword": "pôr nos píncaros da lua",
+      "pages": [
+        227
+      ]
+    },
+    {
+      "id": 5402,
+      "headword": "por outro lado",
+      "pages": [
+        228
+      ]
+    },
+    {
+      "id": 5403,
+      "headword": "pôr para um canto",
+      "pages": [
+        228
+      ]
+    },
+    {
+      "id": 5405,
+      "headword": "por pouco",
+      "pages": [
+        228
+      ]
+    },
+    {
+      "id": 5408,
+      "headword": "por quem é!",
+      "pages": [
+        228
+      ]
+    },
+    {
+      "id": 5410,
+      "headword": "porque torna e porque deixa",
+      "pages": [
+        228
+      ]
+    },
+    {
+      "id": 5424,
+      "headword": "pôr-se a salvo",
+      "pages": [
+        229
+      ]
+    },
+    {
+      "id": 5433,
+      "headword": "por ser quem sois",
+      "pages": [
+        229
+      ]
+    },
+    {
+      "id": 5434,
+      "headword": "por sinal",
+      "pages": [
+        229
+      ]
+    },
+    {
+      "id": 5439,
+      "headword": "porta bagagens",
+      "pages": [
+        229
+      ]
+    },
+    {
+      "id": 5441,
+      "headword": "porta sim, porta não",
+      "pages": [
+        230
+      ]
+    },
+    {
+      "id": 5450,
+      "headword": "por uma mão travessa",
+      "pages": [
+        230
+      ]
+    },
+    {
+      "id": 5460,
+      "headword": "pouca conversa!",
+      "pages": [
+        230
+      ]
+    },
+    {
+      "id": 5462,
+      "headword": "pouco a pouco",
+      "pages": [
+        230
+      ]
+    },
+    {
+      "id": 5463,
+      "headword": "poupar palavras",
+      "pages": [
+        230
+      ]
+    },
+    {
+      "id": 5475,
+      "headword": "pregar mentiras",
+      "pages": [
+        231
+      ]
+    },
+    {
+      "id": 5492,
+      "headword": "prestar ouvidos",
+      "pages": [
+        231
+      ]
+    },
+    {
+      "id": 5493,
+      "headword": "prestar-se ao ridículo",
+      "pages": [
+        231
+      ]
+    },
+    {
+      "id": 5512,
+      "headword": "profissão de fé",
+      "pages": [
+        232
+      ]
+    },
+    {
+      "id": 5534,
+      "headword": "público e notório",
+      "pages": [
+        233
+      ]
+    },
+    {
+      "id": 5541,
+      "headword": "pulso aberto",
+      "pages": [
+        233
+      ]
+    },
+    {
+      "id": 5543,
+      "headword": "pulso livre",
+      "pages": [
+        233
+      ]
+    },
+    {
+      "id": 5550,
+      "headword": "punhos de renda",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "id": 5551,
+      "headword": "pura e simplesmente",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "id": 5571,
+      "headword": "puxar pela língua",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "id": 5575,
+      "headword": "quadros vivos",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "id": 5576,
+      "headword": "qualidade de vida",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "id": 5593,
+      "headword": "quanto mais juras, mais mentes",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "id": 5596,
+      "headword": "quanto muito",
+      "pages": [
+        235
+      ]
+    },
+    {
+      "id": 5612,
+      "headword": "queima das fitas",
+      "pages": [
+        236
+      ]
+    },
+    {
+      "id": 5616,
+      "headword": "queimar o tempo",
+      "pages": [
+        236
+      ]
+    },
+    {
+      "id": 5618,
+      "headword": "queira Deus!",
+      "pages": [
+        236
+      ]
+    },
+    {
+      "id": 5623,
+      "headword": "quem dera!",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5624,
+      "headword": "que me importa",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5630,
+      "headword": "quem não está bem, muda-se",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5631,
+      "headword": "quem não te conhecer que te compre",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5633,
+      "headword": "quem nem ginjas!",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5637,
+      "headword": "quem sabe",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5638,
+      "headword": "quem sabe, sabe!",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5639,
+      "headword": "quem tem unhas é que toca guitarra",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5640,
+      "headword": "quem vê um, vê outro",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5642,
+      "headword": "que o leve o Diabo!",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5649,
+      "headword": "querer mama",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5651,
+      "headword": "querer voar sem ter asas",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5653,
+      "headword": "queres festa",
+      "pages": [
+        237
+      ]
+    },
+    {
+      "id": 5663,
+      "headword": "questão de honra",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5664,
+      "headword": "questão de lana-caprina",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5665,
+      "headword": "questão de tempo",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5666,
+      "headword": "que tal",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5668,
+      "headword": "que vens cá cheirar?",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5669,
+      "headword": "que vida a minha!",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5675,
+      "headword": "quinta coluna",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "id": 5689,
+      "headword": "racho-te ao meio",
+      "pages": [
+        239
+      ]
+    },
+    {
+      "id": 5692,
+      "headword": "raios e coriscos",
+      "pages": [
+        239
+      ]
+    },
+    {
+      "id": 5718,
+      "headword": "real gana",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "id": 5727,
+      "headword": "redonda mentira",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "id": 5734,
+      "headword": "regar com lágrimas",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "id": 5736,
+      "headword": "regras do jogo",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "id": 5740,
+      "headword": "rei morto, rei posto",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "id": 5744,
+      "headword": "reino animal",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5746,
+      "headword": "Relações Públicas",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5750,
+      "headword": "remeter-se ao silêncio",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5751,
+      "headword": "renascer das próprias cinzas",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5758,
+      "headword": "resmungão",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5765,
+      "headword": "restinga",
+      "pages": [
+        242
+      ]
+    },
+    {
+      "id": 5779,
+      "headword": "rijo como o ferro",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5783,
+      "headword": "rir na cara",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5788,
+      "headword": "rodada de vinho",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5789,
+      "headword": "rodar na maçaneta",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5790,
+      "headword": "rodas baixas",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5797,
+      "headword": "rogar pragas",
+      "pages": [
+        243
+      ]
+    },
+    {
+      "id": 5799,
+      "headword": "romance de cordel",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5800,
+      "headword": "roncar como um porco",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5804,
+      "headword": "roupa branca",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5805,
+      "headword": "roupa de cama",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5806,
+      "headword": "roupa suja",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5811,
+      "headword": "sabe-a todo",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5812,
+      "headword": "sabe que mais?",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5818,
+      "headword": "saber as linhas com que se coser",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "id": 5830,
+      "headword": "saber viver",
+      "pages": [
+        245
+      ]
+    },
+    {
+      "id": 5845,
+      "headword": "Sagrada Família",
+      "pages": [
+        245
+      ]
+    },
+    {
+      "id": 5847,
+      "headword": "sair a terreiro",
+      "pages": [
+        245
+      ]
+    },
+    {
+      "id": 5848,
+      "headword": "sair caro",
+      "pages": [
+        245
+      ]
+    },
+    {
+      "id": 5851,
+      "headword": "sair da conta",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "id": 5852,
+      "headword": "sair da linha",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "id": 5853,
+      "headword": "sair da toca",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "id": 5855,
+      "headword": "sair de si",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "id": 5878,
+      "headword": "saltar os miolos",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5884,
+      "headword": "salvar a face",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5886,
+      "headword": "salvar a pele",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5888,
+      "headword": "salvo o devido respeito",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5890,
+      "headword": "salvo raras excepções",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5894,
+      "headword": "sangue azul",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5895,
+      "headword": "sangue na guelra",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5897,
+      "headword": "Santa Bárbara",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5902,
+      "headword": "Santo Graal",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5903,
+      "headword": "santo sudário",
+      "pages": [
+        247
+      ]
+    },
+    {
+      "id": 5922,
+      "headword": "satisfazer uma necessidade",
+      "pages": [
+        248
+      ]
+    },
+    {
+      "id": 5940,
+      "headword": "Se é chato, coça. Se coça, faz ferida. Se faz ferida, vai ao médico.",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5942,
+      "headword": "se eu soubesse o que sei hoje!",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5946,
+      "headword": "segredo de polichinelo",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5948,
+      "headword": "segredos da alcova",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5952,
+      "headword": "segunda mão",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5953,
+      "headword": "segunda meninice",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5959,
+      "headword": "seja feita a vossa vontade",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5961,
+      "headword": "semana inglesa",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5962,
+      "headword": "semana santa",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5969,
+      "headword": "sem dar um pio",
+      "pages": [
+        249
+      ]
+    },
+    {
+      "id": 5988,
+      "headword": "sempre a aviar",
+      "pages": [
+        250
+      ]
+    },
+    {
+      "id": 5992,
+      "headword": "sem remédio",
+      "pages": [
+        250
+      ]
+    },
+    {
+      "id": 5995,
+      "headword": "sem tugir nem mugir",
+      "pages": [
+        250
+      ]
+    },
+    {
+      "id": 6003,
+      "headword": "senso comum",
+      "pages": [
+        251
+      ]
+    },
+    {
+      "id": 6035,
+      "headword": "ser boa praça",
+      "pages": [
+        252
+      ]
+    },
+    {
+      "id": 6065,
+      "headword": "ser de bom tempo",
+      "pages": [
+        253
+      ]
+    },
+    {
+      "id": 6073,
+      "headword": "ser de ganho",
+      "pages": [
+        254
+      ]
+    },
+    {
+      "id": 6075,
+      "headword": "ser de gritos",
+      "pages": [
+        254
+      ]
+    },
+    {
+      "id": 6079,
+      "headword": "ser de olhão",
+      "pages": [
+        254
+      ]
+    },
+    {
+      "id": 6129,
+      "headword": "ser marca do carago",
+      "pages": [
+        256
+      ]
+    },
+    {
+      "id": 6147,
+      "headword": "ser o fim",
+      "pages": [
+        257
+      ]
+    },
+    {
+      "id": 6206,
+      "headword": "ser um algarismo",
+      "pages": [
+        260
+      ]
+    },
+    {
+      "id": 6310,
+      "headword": "sete olhos",
+      "pages": [
+        265
+      ]
+    },
+    {
+      "id": 6313,
+      "headword": "Se vai ao médico, tem que pagar. Se tem que pagar, é chato. Se é chato, coça...",
+      "pages": [
+        265
+      ]
+    },
+    {
+      "id": 6323,
+      "headword": "sine qua non",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6329,
+      "headword": "soar a hora",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6331,
+      "headword": "soar mal",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6333,
+      "headword": "sob a espada de Dâmocles",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6339,
+      "headword": "só de te ver fico com os calcanhares à mostra",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6345,
+      "headword": "soltar as rédeas",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6346,
+      "headword": "soltar a voz",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6347,
+      "headword": "soltar uma gargalhada",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6350,
+      "headword": "soma e segue",
+      "pages": [
+        266
+      ]
+    },
+    {
+      "id": 6358,
+      "headword": "sonhar alto",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6360,
+      "headword": "sono dos justos",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6364,
+      "headword": "sono solto",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6366,
+      "headword": "sopinhas de mel",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6367,
+      "headword": "só por cima do meu cadáver",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6368,
+      "headword": "soprar aos ouvidos",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6378,
+      "headword": "sossego de espírito",
+      "pages": [
+        267
+      ]
+    },
+    {
+      "id": 6384,
+      "headword": "só visto",
+      "pages": [
+        268
+      ]
+    },
+    {
+      "id": 6399,
+      "headword": "suplício de Tântalo",
+      "pages": [
+        268
+      ]
+    },
+    {
+      "id": 6425,
+      "headword": "tal pai tal filho",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6430,
+      "headword": "também ser gente",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6435,
+      "headword": "tanto anda como desanda",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6439,
+      "headword": "tanto melhor",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6440,
+      "headword": "tanto pior",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6444,
+      "headword": "tão ligeiro como o vento",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6446,
+      "headword": "tapar a boca",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6449,
+      "headword": "tapar os ouvidos",
+      "pages": [
+        270
+      ]
+    },
+    {
+      "id": 6453,
+      "headword": "tarde e a más horas",
+      "pages": [
+        271
+      ]
+    },
+    {
+      "id": 6461,
+      "headword": "taxa arreganhada",
+      "pages": [
+        271
+      ]
+    },
+    {
+      "id": 6466,
+      "headword": "teias de aranha",
+      "pages": [
+        271
+      ]
+    },
+    {
+      "id": 6480,
+      "headword": "tempo perdido",
+      "pages": [
+        272
+      ]
+    },
+    {
+      "id": 6497,
+      "headword": "ter a cabeça a prémio",
+      "pages": [
+        272
+      ]
+    },
+    {
+      "id": 6507,
+      "headword": "ter a palavra de",
+      "pages": [
+        272
+      ]
+    },
+    {
+      "id": 6514,
+      "headword": "ter as cartas na mão",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6518,
+      "headword": "ter a seus pés",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6521,
+      "headword": "ter as rédeas nas mãos",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6529,
+      "headword": "ter bom estômago",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6530,
+      "headword": "ter bom olho",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6537,
+      "headword": "ter casa posta",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6541,
+      "headword": "ter conversa",
+      "pages": [
+        273
+      ]
+    },
+    {
+      "id": 6545,
+      "headword": "ter de memória",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6546,
+      "headword": "ter de nascer outra vez",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6548,
+      "headword": "ter diante dos olhos",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6553,
+      "headword": "ter em conta",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6556,
+      "headword": "teres e haveres",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6560,
+      "headword": "ter estômago",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6563,
+      "headword": "ter fraca figura",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6571,
+      "headword": "ter má cara",
+      "pages": [
+        274
+      ]
+    },
+    {
+      "id": 6595,
+      "headword": "ter o condão",
+      "pages": [
+        275
+      ]
+    },
+    {
+      "id": 6600,
+      "headword": "ter o juízo no seu lugar",
+      "pages": [
+        275
+      ]
+    },
+    {
+      "id": 6607,
+      "headword": "ter os nervos à flor da pele",
+      "pages": [
+        276
+      ]
+    },
+    {
+      "id": 6676,
+      "headword": "tingir as mãos de sangue",
+      "pages": [
+        278
+      ]
+    },
+    {
+      "id": 6689,
+      "headword": "tirar a vez",
+      "pages": [
+        279
+      ]
+    },
+    {
+      "id": 6717,
+      "headword": "tocar as raias",
+      "pages": [
+        280
+      ]
+    },
+    {
+      "id": 6719,
+      "headword": "tocar na coisa",
+      "pages": [
+        280
+      ]
+    },
+    {
+      "id": 6728,
+      "headword": "todo o fiel farrapo",
+      "pages": [
+        280
+      ]
+    },
+    {
+      "id": 6747,
+      "headword": "tomar a seu cargo",
+      "pages": [
+        281
+      ]
+    },
+    {
+      "id": 6749,
+      "headword": "tomar forma",
+      "pages": [
+        281
+      ]
+    },
+    {
+      "id": 6752,
+      "headword": "tomar o pulso",
+      "pages": [
+        281
+      ]
+    },
+    {
+      "id": 6755,
+      "headword": "tomar posse",
+      "pages": [
+        281
+      ]
+    },
+    {
+      "id": 6761,
+      "headword": "tons quentes",
+      "pages": [
+        282
+      ]
+    },
+    {
+      "id": 6762,
+      "headword": "topar uma parada",
+      "pages": [
+        282
+      ]
+    },
+    {
+      "id": 6771,
+      "headword": "tornar a si",
+      "pages": [
+        282
+      ]
+    },
+    {
+      "id": 6812,
+      "headword": "tratar de igual para igual",
+      "pages": [
+        284
+      ]
+    },
+    {
+      "id": 6815,
+      "headword": "tratar pela rama",
+      "pages": [
+        284
+      ]
+    },
+    {
+      "id": 6818,
+      "headword": "travar relações",
+      "pages": [
+        284
+      ]
+    },
+    {
+      "id": 6828,
+      "headword": "trazer na cabeça",
+      "pages": [
+        284
+      ]
+    },
+    {
+      "id": 6836,
+      "headword": "trepar às paredes",
+      "pages": [
+        285
+      ]
+    },
+    {
+      "id": 6839,
+      "headword": "três da vida airada",
+      "pages": [
+        285
+      ]
+    },
+    {
+      "id": 6851,
+      "headword": "tristezas não pagam dívidas",
+      "pages": [
+        285
+      ]
+    },
+    {
+      "id": 6877,
+      "headword": "tudo o que vem à rede é peixe",
+      "pages": [
+        286
+      ]
+    },
+    {
+      "id": 6878,
+      "headword": "tudo pela hora da morte",
+      "pages": [
+        286
+      ]
+    },
+    {
+      "id": 6887,
+      "headword": "última vontade",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6892,
+      "headword": "uma coisa de nada",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6902,
+      "headword": "uma vez por outra",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6907,
+      "headword": "um destes dias",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6910,
+      "headword": "um dia em cheio",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6913,
+      "headword": "um Dom Quixote",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6915,
+      "headword": "um fora da lei",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6916,
+      "headword": "um lugar ao sol",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6919,
+      "headword": "um nada",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6920,
+      "headword": "um não sei quê",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "id": 6926,
+      "headword": "um pingo",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "id": 6931,
+      "headword": "um sopro de vida",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "id": 6932,
+      "headword": "um tal",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "id": 6948,
+      "headword": "uva mijona",
+      "pages": [
+        288
+      ]
+    },
+    {
+      "id": 6957,
+      "headword": "vaga de fundo",
+      "pages": [
+        289
+      ]
+    },
+    {
+      "id": 6965,
+      "headword": "vai bem aviado",
+      "pages": [
+        289
+      ]
+    },
+    {
+      "id": 6969,
+      "headword": "vai chamar pai a outro",
+      "pages": [
+        290
+      ]
+    },
+    {
+      "id": 7003,
+      "headword": "vai-se fazendo tarde",
+      "pages": [
+        291
+      ]
+    },
+    {
+      "id": 7013,
+      "headword": "vai tudo a eito",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7018,
+      "headword": "vá lá",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7024,
+      "headword": "valer tudo menos tirar olhos",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7025,
+      "headword": "valha a verdade",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7029,
+      "headword": "valor acrescentado",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7030,
+      "headword": "valor facial",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7033,
+      "headword": "vamos a ver",
+      "pages": [
+        292
+      ]
+    },
+    {
+      "id": 7037,
+      "headword": "vá que não vá",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7039,
+      "headword": "varinha de condão",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7050,
+      "headword": "velha guarda",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7052,
+      "headword": "velhos são os trapos",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7058,
+      "headword": "vender caro a vida",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7061,
+      "headword": "vender por atacado",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7063,
+      "headword": "vender-se por um prato de lentilhas",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "id": 7069,
+      "headword": "ver ao longe",
+      "pages": [
+        294
+      ]
+    },
+    {
+      "id": 7079,
+      "headword": "verdes anos",
+      "pages": [
+        294
+      ]
+    },
+    {
+      "id": 7092,
+      "headword": "ver para crer",
+      "pages": [
+        295
+      ]
+    },
+    {
+      "id": 7093,
+      "headword": "ver pelos seus olhos",
+      "pages": [
+        295
+      ]
+    },
+    {
+      "id": 7095,
+      "headword": "ver-se a braços",
+      "pages": [
+        295
+      ]
+    },
+    {
+      "id": 7133,
+      "headword": "vinho a tostão",
+      "pages": [
+        296
+      ]
+    },
+    {
+      "id": 7145,
+      "headword": "virar do avesso",
+      "pages": [
+        297
+      ]
+    },
+    {
+      "id": 7150,
+      "headword": "vir a saber-se",
+      "pages": [
+        297
+      ]
+    },
+    {
+      "id": 7171,
+      "headword": "viúva alegre",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7174,
+      "headword": "viver à barba longa",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7180,
+      "headword": "viver do expediente",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7181,
+      "headword": "viver no seu canto",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7183,
+      "headword": "vivo como um pardal",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7191,
+      "headword": "voltar as tripas do avesso",
+      "pages": [
+        298
+      ]
+    },
+    {
+      "id": 7197,
+      "headword": "volúvel como o vento",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "id": 7199,
+      "headword": "vontade de ferro",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "id": 7201,
+      "headword": "voto de louvor",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "id": 7208,
+      "headword": "voz do sangue",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "id": 7209,
+      "headword": "voz firme",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "id": 7226,
+      "headword": "xnaxo",
+      "pages": [
+        300
+      ]
+    },
+    {
+      "id": 7240,
+      "headword": "zumba que zumba",
+      "pages": [
+        301
+      ]
+    }
+  ],
+  "duplicate_headwords": {
+    "à grande e à francesa": 2,
+    "puta": 2,
+    "argolada": 2,
+    "avião": 2,
+    "besugo": 2,
+    "conhecer de ginjeira": 2,
+    "cromo": 2,
+    "dar um toque": 2,
+    "encharcado": 2,
+    "trocar seis por meia-dúzia": 2,
+    "estar fora de si": 2,
+    "fazer boa figura": 2,
+    "ir para os anjinhos": 2,
+    "ir tirar o pai da forca": 2,
+    "nabo": 2,
+    "não dar vazão": 2,
+    "não fazer a ponta de um corno": 2,
+    "palavras caras": 2,
+    "prometer este mundo e o outro": 2,
+    "roubalheira": 2,
+    "sair melhor que a encomenda": 2,
+    "velhadas": 2,
+    "ter a papinha toda feita": 2,
+    "viado": 2
+  },
+  "field_counts": {
+    "sin.": 4594,
+    "patt": 1332,
+    "level": 1047,
+    "ex.": 993,
+    "é um": 733,
+    "local": 454,
+    "nota": 288,
+    "equiv": 266,
+    "frase": 259,
+    "dom": 72,
+    "pseudo-etimo": 69,
+    "ori.": 60,
+    "oposto": 46,
+    "etim": 44,
+    "en": 38,
+    "gram": 36,
+    "genero": 35,
+    "adivinha": 11,
+    "p": 11,
+    "r": 11,
+    "tipo": 11,
+    "ver": 10,
+    "substitui": 10,
+    "comm": 8,
+    "anedota": 7,
+    "trocadilho": 7,
+    "referente": 6,
+    "uso": 4,
+    "!name": 4,
+    "numero": 3,
+    "citação": 2,
+    "observação": 2,
+    "area": 2,
+    "raiz": 2,
+    "abreviado": 2,
+    "superlativo": 2,
+    "grau-normal": 2,
+    "dataDesuso": 2,
+    "dataOrigem": 2,
+    "evento que lhe deu origem": 2,
+    "eufemismo": 1,
+    "habitanteDe": 1,
+    "pl": 1,
+    "Porto": 1,
+    "cite": 1,
+    "resp": 1,
+    "resp2": 1,
+    "originalmente": 1,
+    "fonte": 1,
+    "obs": 1,
+    "situação": 1,
+    "latim de contrafacção": 1,
+    "contra_resposta": 1,
+    "De acordo com": 1,
+    "fonetica": 1,
+    "zc": 1,
+    "ori": 1
+  }
+}
