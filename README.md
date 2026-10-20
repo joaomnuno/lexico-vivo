@@ -35,7 +35,9 @@ The supplied parser reports 948 entries without definitions. Those entries remai
 
 This is a dictionary of the supplied slang/idiom corpus. It does not contain Priberam's general-language corpus, its translation service, native pronunciation recordings, validated IPA, syllabification, or automatic conversion between spelling standards. It implements comparable lookup and reading tools where source data supports them. No fake popularity, online-user counts, biography, or regional distribution is displayed.
 
-The prototype's author attribution and CC BY-SA corpus licence are not verified by the supplied source materials. The site states that limitation. Confirm the original rights and attribution before public redistribution. The generated portrait is retained as a reference, not presented as an authenticated historical photo.
+The original PDF is preserved at `references/dicionario.pdf`. Its title page credits **José João Almeida** and dates this edition to 7 October 2026. Page 2 describes the collaborative collection and credits its contributors. The site honours Almeida on the landing page, in the project biography, in the footer, and on original dictionary entries. Academic sources and the original dictionary are linked from the biography. See [source notes](docs/SOURCES.md).
+
+The prototype's attribution to Alberto P. de Vasconcelos was unsupported and is not used. Its generated portrait remains a reference asset, not an authenticated photograph. The prototype's CC BY-SA corpus licence is not established by the supplied PDF; confirm the applicable original terms before redistribution.
 
 ## Editorial review
 

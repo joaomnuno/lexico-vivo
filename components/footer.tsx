@@ -11,7 +11,10 @@ export function Footer() {
             <br />
             nos dicionários de sempre.
           </p>
-          <span className="footer-signature">Feito de palavras. Feito por todos.</span>
+          <span className="footer-signature">
+            Com gratidão a <a href="/sobre#jose-joao-almeida">José João Almeida</a> e a quem
+            partilhou estas palavras.
+          </span>
         </div>
         <div>
           <h3>Explorar o léxico</h3>
@@ -23,7 +26,7 @@ export function Footer() {
         <div>
           <h3>Um projeto vivo</h3>
           <a href="/sobre">Sobre o Léxico Vivo</a>
-          <a href="/sobre#origem">A recolha original</a>
+          <a href="/sobre#jose-joao-almeida">O autor & a recolha original</a>
           <a href="/sobre#metodologia">Critérios editoriais</a>
           <a href="/api">API & dados</a>
         </div>

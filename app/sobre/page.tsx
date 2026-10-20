@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { BookOpenText } from 'lucide-react';
 import { Contribution } from '../../components/interactive';
 import { stats, formatNumber } from '../../lib/dictionary';
-export const metadata: Metadata = { title: 'O projeto, a recolha e os critérios editoriais' };
+export const metadata: Metadata = { title: 'José João Almeida, a recolha e o projeto' };
 export const dynamic = 'force-dynamic';
 export default async function About() {
   const numbers = await stats();
@@ -21,6 +21,7 @@ export default async function About() {
       </div>
       <div className="about-grid">
         <aside className="about-nav">
+          <a href="#jose-joao-almeida">José João Almeida</a>
           <a href="#origem">A recolha original</a>
           <a href="#metodologia">Critérios editoriais</a>
           <a href="#participar">Como participar</a>
@@ -28,26 +29,74 @@ export default async function About() {
           <a href="#privacidade">Privacidade</a>
         </aside>
         <div className="prose">
-          <section id="origem">
-            <h2>Um dicionário começa por escutar.</h2>
+          <section id="jose-joao-almeida">
+            <span className="eyebrow">Com admiração e gratidão</span>
+            <h2>
+              José João Almeida,
+              <br />a curiosidade por trás das palavras.
+            </h2>
             <p>
-              O Léxico Vivo dá uma casa digital a uma recolha de calão e expressões populares da
-              língua portuguesa. Um espaço para descobrir os sentidos que circulam nas ruas, nos
-              cafés, nas aldeias e entre gerações.
+              Há um trabalho de escuta por trás de cada expressão que aqui encontras. A recolha que
+              dá origem ao Léxico Vivo é de <strong>José João Almeida</strong>, autor do{' '}
+              <a href="https://natura.di.uminho.pt/~jj/pln/calao/dicionario.html">
+                Dicionário aberto de calão e expressões idiomáticas
+              </a>
+              . O seu nome está na primeira página do original; merece também um lugar de destaque
+              nesta nova casa das palavras.
             </p>
             <p>
-              A base inicial foi importada de uma extração estruturada de um dicionário de 301
-              páginas, identificado nos materiais fornecidos como dicionário Natura. Conservamos os{' '}
-              {formatNumber(numbers.total)} registos e as referências às páginas da fonte.
+              Professor de Computação na Universidade do Minho e investigador do Centro ALGORITMI,
+              cruza o estudo da linguagem com a informática. É o fundador do{' '}
+              <a href="https://natura.di.uminho.pt/wiki/doku.php?id=ProjectoNatura">
+                Projeto Natura
+              </a>
+              , dedicado ao processamento da linguagem natural e à criação de recursos para a língua
+              portuguesa. O seu percurso inclui também o desenvolvimento do Jspell, com Ulisses
+              Pinto, para a análise e correção de palavras em português.
             </p>
-            <blockquote>
-              Às pessoas que recolheram, anotaram e preservaram estas palavras: este projeto existe
-              graças a esse trabalho.
+            <p>
+              Numa{' '}
+              <a href="https://algoritmi.uminho.pt/news/dicionario-aberto-de-calao-e-expressoes-idiomaticas-de-jose-joao-almeida/">
+                notícia de maio de 2024
+              </a>
+              , o Centro ALGORITMI descreve uma recolha feita ao longo de 30 anos e disponibilizada
+              gratuitamente na Internet. É um trabalho paciente de guardar significados, exemplos,
+              variantes e lugares de uso, com espaço para o humor e para as expressões menos
+              cerimoniosas do português.
+            </p>
+            <blockquote cite="https://natura.di.uminho.pt/~jj/pln/calao/dicionario.pdf#page=2">
+              “Apela-se no entanto ao leitor que seja criativo, fraterno e inclusivo mas nunca
+              indiferente.”
+              <cite>José João Almeida · introdução ao dicionário, página 2</cite>
             </blockquote>
             <p>
-              Os materiais disponíveis não permitem confirmar a identidade do autor, a história
-              editorial ou a licença do documento original. A biografia e o retrato sugeridos no
-              protótipo não são apresentados como factos históricos.
+              Obrigado, José João Almeida, por olhar para a fala de todos os dias com esta
+              curiosidade, por a guardar e por a partilhar. O Léxico Vivo procura dar continuidade a
+              esse gesto: facilitar o encontro com as palavras, mantendo visível quem as reuniu.
+            </p>
+          </section>
+          <section id="origem">
+            <h2>Uma recolha aberta a muitas vozes.</h2>
+            <p>
+              Na introdução, o autor apresenta o dicionário como uma coleção amadora, construída com
+              a colaboração de vários informantes. A segunda página agradece a uma longa lista de
+              pessoas que contribuíram com palavras e expressões. O nosso agradecimento estende-se a
+              todas elas: esta memória da língua é também feita dessas partilhas.
+            </p>
+            <p>
+              O original junta linguística, linguagens de programação e Perl, usando DPL, uma
+              linguagem de programação de dicionários do Projeto Natura. Num{' '}
+              <a href="https://natura.di.uminho.pt/~jj/dac.html">texto de setembro de 1999</a>, José
+              João Almeida e Pedro Rangel Henriques já descreviam um dicionário consultável e
+              extensível pela Internet: útil mesmo quando incompleto, sempre aberto a novas
+              contribuições.
+            </p>
+            <p>
+              A edição que serve de base a este site tem 301 páginas e está datada de 7 de outubro
+              de 2026. Conservamos os {formatNumber(numbers.total)} registos extraídos e as
+              referências às páginas da fonte. Esta interface é uma nova forma de consultar a
+              recolha; o crédito pelo trabalho original pertence ao seu autor e aos seus
+              colaboradores.
             </p>
           </section>
           <section id="metodologia">
@@ -101,9 +150,21 @@ export default async function About() {
           <section id="fontes">
             <h2>Fontes & atribuição</h2>
             <p>
-              Fonte do corpus: <code>dicionario.json</code>, extraído de <code>dicionario.pdf</code>
-              , páginas 3–301. O registo detalhado de cada verbete preserva os campos e a ordem das
-              secções disponíveis.
+              José João Almeida, <em>Dicionário aberto de calão e expressões idiomáticas</em>,
+              edição de 7 de outubro de 2026, 301 páginas. Autoria e introdução confirmadas no PDF
+              original fornecido ao projeto, páginas 1–2. Os verbetes foram extraídos das páginas
+              3–301 para <code>dicionario.json</code>.
+            </p>
+            <p>
+              Consulta o{' '}
+              <a href="https://natura.di.uminho.pt/~jj/pln/calao/dicionario.html">
+                dicionário no site do autor
+              </a>
+              , a <a href="https://natura.di.uminho.pt/~jj/">sua página académica</a> e os{' '}
+              <a href="https://natura.di.uminho.pt/wiki/doku.php?id=dicionarios%3Amain">
+                créditos do Jspell
+              </a>
+              .
             </p>
             <p>
               O objetivo é facilitar a consulta e a investigação. A licença CC BY-SA proposta no

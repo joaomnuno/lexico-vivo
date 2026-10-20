@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import { daily, entryUrl, featured, formatNumber, stats } from '../lib/dictionary';
 import { Search } from '../components/search';
+import { AuthorTribute } from '../components/author-tribute';
 import { EntryCard, JoinBanner } from '../components/cards';
 import { Pronounce, SaveButton, ShareButton } from '../components/interactive';
 
@@ -208,6 +209,7 @@ export default async function Home() {
             })}
           </div>
         </section>
+        <AuthorTribute />
         <JoinBanner />
       </div>
     </>

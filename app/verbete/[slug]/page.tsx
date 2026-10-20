@@ -242,17 +242,23 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
             <div className="entry-source">
               <span>
                 <FileText size={13} />
-                {entry.source === 'original'
-                  ? `Recolha original${entry.pages.length ? ` · pág. ${entry.pages.join(', ')}` : ''}`
-                  : 'Contribuição revista'}
+                {entry.source === 'original' ? (
+                  <>
+                    <a href="/sobre#jose-joao-almeida">Recolha de José João Almeida</a>
+                    {entry.pages.length ? ` · pág. ${entry.pages.join(', ')}` : ''}
+                  </>
+                ) : (
+                  'Contribuição revista'
+                )}
               </span>
               <Contribution entry={entry} />
             </div>
             <details className="source-details">
               <summary>Consultar registo original e proveniência</summary>
               <p>
-                O texto conserva o conteúdo da recolha, incluindo grafias e marcas de uso. A leitura
-                é sintetizada pelo navegador.
+                A fonte deste verbete é a recolha de José João Almeida e dos seus colaboradores. O
+                texto conserva o conteúdo da recolha, incluindo grafias e marcas de uso. A leitura é
+                sintetizada pelo navegador.
               </p>
               <a href={`/api/entries/${entry.slug}`}>Consultar dados deste verbete (JSON)</a>
               <pre>
