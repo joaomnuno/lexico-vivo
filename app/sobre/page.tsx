@@ -152,8 +152,7 @@ export default async function About() {
             <p>
               José João Almeida, <em>Dicionário aberto de calão e expressões idiomáticas</em>,
               edição de 7 de outubro de 2026, 301 páginas. Autoria e introdução confirmadas no PDF
-              original fornecido ao projeto, páginas 1–2. Os verbetes foram extraídos das páginas
-              3–301 para <code>dicionario.json</code>.
+              original fornecido ao projeto, páginas 1–2.
             </p>
             <p>
               Consulta o{' '}
