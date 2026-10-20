@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Flame, Search, Eye } from 'lucide-react';
+import { Search, Eye } from 'lucide-react';
 import { HotList } from '../../components/hot-list';
 export const metadata: Metadata = { title: 'Em alta — o que andamos a descobrir' };
 export const dynamic = 'force-dynamic';
@@ -15,18 +15,8 @@ export default async function HotPage({
   return (
     <div className="container hot-page">
       <div className="page-intro">
-        <span className="eyebrow">
-          <Flame size={16} /> O léxico a acontecer
-        </span>
-        <h1>
-          De que palavras
-          <br />
-          andamos à procura?
-        </h1>
-        <p>
-          As expressões que despertam curiosidade. Descobre o que as pessoas estão a consultar e a
-          encontrar nas pesquisas.
-        </p>
+        <h1>Em alta</h1>
+        <p>As palavras mais consultadas e encontradas nas pesquisas.</p>
       </div>
       <div className="hot-filters">
         <nav aria-label="Tipo de atividade">

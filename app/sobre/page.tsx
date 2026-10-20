@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { BookOpenText } from 'lucide-react';
 import { Contribution } from '../../components/interactive';
 import { stats, formatNumber } from '../../lib/dictionary';
 export const metadata: Metadata = { title: 'José João Almeida, a recolha e o projeto' };
@@ -9,15 +8,8 @@ export default async function About() {
   return (
     <div className="container about-page">
       <div className="page-intro">
-        <span className="eyebrow">
-          <BookOpenText size={16} /> Sobre o Léxico Vivo
-        </span>
-        <h1>
-          Guardar o que dizemos.
-          <br />
-          Preservar o que somos.
-        </h1>
-        <p>As palavras do dia a dia também merecem um lugar na memória.</p>
+        <h1>Sobre o Léxico Vivo</h1>
+        <p>Uma nova forma de consultar a recolha de José João Almeida.</p>
       </div>
       <div className="about-grid">
         <aside className="about-nav">
@@ -30,19 +22,13 @@ export default async function About() {
         </aside>
         <div className="prose">
           <section id="jose-joao-almeida">
-            <span className="eyebrow">Com admiração e gratidão</span>
-            <h2>
-              José João Almeida,
-              <br />a curiosidade por trás das palavras.
-            </h2>
+            <h2>José João Almeida</h2>
             <p>
-              Há um trabalho de escuta por trás de cada expressão que aqui encontras. A recolha que
-              dá origem ao Léxico Vivo é de <strong>José João Almeida</strong>, autor do{' '}
+              O Léxico Vivo apresenta a recolha de <strong>José João Almeida</strong>, autor do{' '}
               <a href="https://natura.di.uminho.pt/~jj/pln/calao/dicionario.html">
                 Dicionário aberto de calão e expressões idiomáticas
               </a>
-              . O seu nome está na primeira página do original; merece também um lugar de destaque
-              nesta nova casa das palavras.
+              , numa interface dedicada à pesquisa e descoberta de palavras.
             </p>
             <p>
               Professor de Computação na Universidade do Minho e investigador do Centro ALGORITMI,
@@ -60,28 +46,20 @@ export default async function About() {
                 notícia de maio de 2024
               </a>
               , o Centro ALGORITMI descreve uma recolha feita ao longo de 30 anos e disponibilizada
-              gratuitamente na Internet. É um trabalho paciente de guardar significados, exemplos,
-              variantes e lugares de uso, com espaço para o humor e para as expressões menos
-              cerimoniosas do português.
+              gratuitamente na Internet, com significados, exemplos, variantes e lugares de uso.
             </p>
             <blockquote cite="https://natura.di.uminho.pt/~jj/pln/calao/dicionario.pdf#page=2">
               “Apela-se no entanto ao leitor que seja criativo, fraterno e inclusivo mas nunca
               indiferente.”
               <cite>José João Almeida · introdução ao dicionário, página 2</cite>
             </blockquote>
-            <p>
-              Obrigado, José João Almeida, por olhar para a fala de todos os dias com esta
-              curiosidade, por a guardar e por a partilhar. O Léxico Vivo procura dar continuidade a
-              esse gesto: facilitar o encontro com as palavras, mantendo visível quem as reuniu.
-            </p>
           </section>
           <section id="origem">
-            <h2>Uma recolha aberta a muitas vozes.</h2>
+            <h2>A recolha original</h2>
             <p>
               Na introdução, o autor apresenta o dicionário como uma coleção amadora, construída com
               a colaboração de vários informantes. A segunda página agradece a uma longa lista de
-              pessoas que contribuíram com palavras e expressões. O nosso agradecimento estende-se a
-              todas elas: esta memória da língua é também feita dessas partilhas.
+              pessoas que contribuíram com palavras e expressões.
             </p>
             <p>
               O original junta linguística, linguagens de programação e Perl, usando DPL, uma
@@ -94,13 +72,12 @@ export default async function About() {
             <p>
               A edição que serve de base a este site tem 301 páginas e está datada de 7 de outubro
               de 2026. Conservamos os {formatNumber(numbers.total)} registos extraídos e as
-              referências às páginas da fonte. Esta interface é uma nova forma de consultar a
-              recolha; o crédito pelo trabalho original pertence ao seu autor e aos seus
-              colaboradores.
+              referências às páginas da fonte. O crédito pelo trabalho original pertence ao autor e
+              aos seus colaboradores.
             </p>
           </section>
           <section id="metodologia">
-            <h2>Respeitar a fonte. Dar contexto à língua.</h2>
+            <h2>Critérios editoriais</h2>
             <p>
               As definições, os exemplos, os sinónimos, as marcas de registo e as indicações
               regionais são preservados como foram extraídos. Algumas grafias, divisões de sentidos
@@ -138,7 +115,7 @@ export default async function About() {
             </ul>
           </section>
           <section id="participar">
-            <h2>Uma língua nunca está acabada.</h2>
+            <h2>Como participar</h2>
             <p>
               Conheces uma expressão que falta? Um significado diferente? Um uso na tua região?
               Envia uma sugestão com uma definição e, se possível, um exemplo.
@@ -173,17 +150,15 @@ export default async function About() {
               conteúdo, confirma os direitos com os titulares da recolha original.
             </p>
             <p>
-              A conjugação usa a biblioteca{' '}
-              <a href="https://github.com/ablaut-dev/ablaut">ablaut</a> (MIT/Apache-2.0). Ícones:{' '}
-              <a href="https://lucide.dev">Lucide</a> (ISC). Tipos de letra: Merriweather e Plus
-              Jakarta Sans (SIL Open Font License), servidos localmente.
+              Ícones: <a href="https://lucide.dev">Lucide</a> (ISC). Tipos de letra: Merriweather e
+              Plus Jakarta Sans (SIL Open Font License), servidos localmente.
             </p>
             <p>
               <a href="/api">Consultar a documentação da API de leitura.</a>
             </p>
           </section>
           <section id="privacidade">
-            <h2>Privacidade, sem complicar.</h2>
+            <h2>Privacidade</h2>
             <p>
               Explicamos o que fica neste navegador, como contamos as consultas e o que acontece aos
               teus votos e contribuições.

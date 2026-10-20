@@ -235,11 +235,6 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
               <a href={`/dicionario?q=${encodeURIComponent(entry.headword)}&mode=definitions`}>
                 Encontrar nas definições <ArrowRight size={13} />
               </a>
-              {/^[a-záéíóúâêôãõç]+(ar|er|ir|ôr)$/i.test(entry.headword) && (
-                <a href={`/conjugar?verbo=${encodeURIComponent(entry.headword)}`}>
-                  Conjugar verbo <ArrowRight size={13} />
-                </a>
-              )}
             </div>
             <Vote entryId={entry.id} />
             <div className="entry-source">

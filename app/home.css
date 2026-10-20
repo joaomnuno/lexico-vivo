@@ -1,0 +1,223 @@
+.home-intro {
+  border-bottom: 1px solid var(--line);
+  background: var(--linen);
+}
+.home-intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 70px;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.home-lookup .eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.8px;
+}
+.home-lookup h1 {
+  font-size: clamp(38px, 4.2vw, 56px);
+  line-height: 1.2;
+  letter-spacing: -2px;
+  max-width: 570px;
+  margin: 22px 0 18px;
+  text-wrap: balance;
+}
+.home-lookup > p {
+  font-size: 15px;
+  color: var(--muted);
+  max-width: 440px;
+}
+.home-lookup .search-hero {
+  margin-top: 26px;
+}
+.home-lookup .search-form {
+  padding: 7px 7px 7px 16px;
+  border-color: #cbbbaf;
+}
+.lookup-examples {
+  display: flex;
+  align-items: center;
+  gap: 8px 16px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.lookup-examples > span {
+  color: var(--muted);
+}
+.lookup-examples a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--caramel);
+}
+.word-of-day {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--caramel);
+  border-radius: 4px;
+  box-shadow: 0 8px 20px #3b271e05;
+  min-width: 0;
+}
+.word-of-day-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.word-of-day-label .eyebrow {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.word-of-day time {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.word-of-day h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  margin: 24px 0 14px;
+  overflow-wrap: anywhere;
+}
+.word-of-day > p {
+  font-size: 15px;
+  line-height: 1.8;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.word-of-day blockquote {
+  border-left: 2px solid var(--line);
+  padding-left: 16px;
+  margin: 18px 0 0;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.word-of-day-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-top: 24px;
+}
+.discovery-body {
+  padding-top: 42px;
+  padding-bottom: 32px;
+}
+.discovery-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  margin-top: 44px;
+}
+.discovery-bottom .section-heading {
+  margin-bottom: 18px;
+}
+.discovery-bottom h2 {
+  font-size: 23px;
+}
+.region-links > a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.region-links > a > svg {
+  color: var(--caramel);
+}
+.region-links small {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 12px;
+}
+.discovery-hot .hot-list {
+  padding-left: 22px;
+}
+.discovery-hot .hot-list li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (max-width: 1050px) {
+  .home-intro-grid {
+    gap: 30px;
+  }
+  .home-lookup h1 {
+    font-size: 43px;
+  }
+  .word-of-day {
+    padding: 22px;
+  }
+  .discovery-bottom {
+    gap: 30px;
+  }
+  .discovery-body .card-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 800px) {
+  .home-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-top: 36px;
+    padding-bottom: 32px;
+  }
+  .home-lookup h1 {
+    max-width: 520px;
+  }
+  .word-of-day h2 {
+    margin-top: 18px;
+  }
+  .discovery-body .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .discovery-body .entry-card {
+    padding: 20px 24px;
+  }
+  .discovery-bottom {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+@media (max-width: 540px) {
+  .home-lookup h1 {
+    font-size: 38px;
+    letter-spacing: -1.5px;
+  }
+  .home-lookup > p {
+    font-size: 14px;
+  }
+  .home-lookup .search-form {
+    gap: 8px;
+    padding-left: 12px;
+  }
+  .home-lookup .search-form > svg {
+    display: none;
+  }
+  .lookup-examples {
+    gap: 10px 14px;
+  }
+  .lookup-examples > span {
+    width: 100%;
+  }
+  .word-of-day h2 {
+    font-size: 26px;
+  }
+  .discovery-body {
+    padding-top: 30px;
+  }
+  .discovery-bottom h2 {
+    font-size: 21px;
+  }
+}

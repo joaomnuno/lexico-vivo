@@ -1,17 +1,11 @@
-import { BookOpenText, MessageCircle } from 'lucide-react';
+import { BookOpenText } from 'lucide-react';
 export function Brand() {
   return (
     <a className="brand" href="/" aria-label="Léxico Vivo, página inicial">
-      <span className="brand-mark">
-        <BookOpenText size={34} strokeWidth={1.6} />
-        <MessageCircle size={15} strokeWidth={2} />
+      <span className="brand-symbol" aria-hidden="true">
+        <BookOpenText size={25} strokeWidth={1.6} />
       </span>
-      <span>
-        <span className="brand-name">
-          Léxico Vivo<span className="open-tag">aberto</span>
-        </span>
-        <span className="brand-caption">A língua de todos, nas palavras de cada um.</span>
-      </span>
+      <span className="brand-name">Léxico Vivo</span>
     </a>
   );
 }

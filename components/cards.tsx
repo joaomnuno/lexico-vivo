@@ -1,7 +1,6 @@
-import { ArrowRight, BookOpenText, MapPin, Quote, Sparkles, Flame } from 'lucide-react';
+import { ArrowRight, MapPin, Sparkles, Flame } from 'lucide-react';
 import { entryUrl, type Entry } from '../lib/dictionary';
 import { SaveButton, Contribution } from './interactive';
-import { regions } from '../lib/normalize';
 import { HotList } from './hot-list';
 
 export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSearch?: boolean }) {
@@ -17,15 +16,15 @@ export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSea
       <a className="card-title" href={url}>
         <h3>{entry.headword}</h3>
       </a>
-      <p>
-        {entry.definitions[0]?.replace(/^◦/, '') ||
-          'Este verbete aguarda uma definição. Podes ajudar a completá-lo.'}
-      </p>
-      {entry.fields['ex.']?.[0] && <blockquote>“{entry.fields['ex.'][0]}”</blockquote>}
+      <p>{entry.definitions[0]?.replace(/^◦/, '') || 'Definição por completar.'}</p>
       <div className="entry-card-bottom">
         <small>
-          <MapPin size={12} />
-          {entry.fields.local?.join(', ') || 'Região não indicada'}
+          {entry.fields.local?.length ? (
+            <>
+              <MapPin size={12} />
+              {entry.fields.local.join(', ')}
+            </>
+          ) : null}
         </small>
         <a href={url} aria-label={`Consultar ${entry.headword}`}>
           <ArrowRight size={17} />
@@ -36,21 +35,12 @@ export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSea
 }
 export function JoinBanner() {
   return (
-    <section className="join-banner">
+    <section className="contribution-strip">
       <div>
-        <span className="eyebrow">O próximo verbete pode ser teu</span>
-        <h2>
-          Há palavras que só
-          <br />a tua terra conhece.
-        </h2>
-        <p>
-          Uma expressão da tua avó. Uma palavra do teu bairro.
-          <br />
-          Ajuda-nos a guardar aquilo que nos faz falar português.
-        </p>
+        <h2>Falta aqui uma expressão?</h2>
+        <p>Partilha-a connosco. Cada sugestão passa por revisão.</p>
       </div>
       <Contribution />
-      <BookOpenText className="join-decoration" size={190} strokeWidth={0.7} />
     </section>
   );
 }
@@ -86,31 +76,8 @@ export function Sidebar({ day }: { day: Entry }) {
         </div>
         <HotList />
         <a className="text-link" href="/em-alta">
-          Ver consultas e pesquisas
+          Ver mais
         </a>
-      </section>
-      <section className="side-card region-side">
-        <div className="section-mini">
-          <span>
-            <MapPin size={14} /> Um país, tantos falares
-          </span>
-        </div>
-        {regions.slice(0, 5).map((r) => (
-          <a key={r.id} href={`/dicionario?region=${r.id}`}>
-            <span className={`region-dot ${r.id}`} />
-            {r.name}
-            <ArrowRight size={13} />
-          </a>
-        ))}
-        <a className="text-link" href="/regioes">
-          Toda a lusofonia <ArrowRight size={14} />
-        </a>
-      </section>
-      <section className="side-card dark-card">
-        <Quote size={26} strokeWidth={1.3} />
-        <h2>Também se diz assim na tua terra?</h2>
-        <p>O dicionário cresce com as palavras de quem o vive.</p>
-        <Contribution />
       </section>
     </aside>
   );

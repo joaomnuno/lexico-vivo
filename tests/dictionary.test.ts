@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { corpus, search } from '../lib/dictionary';
 import { db } from '../lib/db';
-import { conjugation } from '../lib/conjugation';
 
 test('import preserves every source record, duplicate headwords, definitions and original fields', async () => {
   const source = JSON.parse(await readFile('data/dicionario.json', 'utf8')).entries;
@@ -45,28 +44,6 @@ test('search handles accents, typos, wildcards, definitions, regions and bounded
     ),
   );
   assert.equal((await search({ q: 'a*'.repeat(55) + 'z' })).total, 0);
-});
-test('conjugator handles irregular verbs and rejects non-infinitives', () => {
-  assert.deepEqual(conjugation('ser')?.present, ['sou', 'és', 'é', 'somos', 'sois', 'são']);
-  assert.deepEqual(conjugation('falar')?.present, [
-    'falo',
-    'falas',
-    'fala',
-    'falamos',
-    'falais',
-    'falam',
-  ]);
-  assert.equal(conjugation('<script>'), null);
-  assert.equal(conjugation('sou'), null);
-  assert.deepEqual(conjugation('pôr')?.subjunctivePresent, [
-    'ponha',
-    'ponhas',
-    'ponha',
-    'ponhamos',
-    'ponhais',
-    'ponham',
-  ]);
-  assert.equal(conjugation('falar')?.preterite?.[3], 'falámos');
 });
 process.on('beforeExit', () => {
   void db.$disconnect();

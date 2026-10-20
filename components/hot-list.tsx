@@ -42,8 +42,8 @@ export async function HotList({
       <Flame size={24} strokeWidth={1.4} />
       <p>
         {kind === 'search'
-          ? 'As palavras encontradas através da pesquisa vão aparecer aqui.'
-          : 'As primeiras consultas estão a chegar. As palavras mais vistas vão aparecer aqui.'}
+          ? 'Ainda não há pesquisas neste período.'
+          : 'Ainda não há consultas neste período.'}
       </p>
       <a href="/dicionario" className="text-link">
         Descobrir uma expressão

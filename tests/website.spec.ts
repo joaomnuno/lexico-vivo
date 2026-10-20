@@ -30,7 +30,7 @@ test('home renders, search autocompletes with keyboard, and entry can be saved',
   await expect(page.locator('.saved-list article')).toHaveCount(1);
   expect(errors).toEqual([]);
 });
-test('filters, source references and irregular conjugation work', async ({ page, request }) => {
+test('filters and source references work', async ({ page, request }) => {
   await page.goto('/dicionario?q=desenrascancoo');
   await expect(page.locator('.results-summary')).toContainText('Talvez procures');
   await page.goto('/dicionario?region=brasil');
@@ -40,9 +40,6 @@ test('filters, source references and irregular conjugation work', async ({ page,
   await expect(page.locator('.definitions')).toContainText('estar mal disposto e zangado');
   await expect(page.locator('.synonym-list')).toBeVisible();
   await expect(page.locator('.entry-source')).toContainText('pág.');
-  await page.goto('/conjugar?verbo=ser');
-  await expect(page.locator('.tense-card').first()).toContainText('sou');
-  await expect(page.locator('.tense-card')).toHaveCount(17);
   expect((await request.get('/api/entries/no-such-entry')).status()).toBe(404);
   expect((await request.get('/does-not-exist')).status()).toBe(404);
   expect((await request.get('/robots.txt')).ok()).toBe(true);
@@ -148,7 +145,6 @@ test('desktop and mobile layouts stay within viewport', async ({ page }) => {
       '/dicionario?region=brasil',
       '/regioes',
       '/em-alta',
-      '/conjugar?verbo=ser',
       '/sobre',
     ]) {
       await page.goto(path);
@@ -170,7 +166,6 @@ test('key pages meet automated WCAG AA checks', async ({ page }) => {
     '/',
     '/verbete/estar-com-os-azeites',
     '/dicionario',
-    '/conjugar?verbo=ser',
     '/sobre',
     '/regioes',
     '/em-alta',

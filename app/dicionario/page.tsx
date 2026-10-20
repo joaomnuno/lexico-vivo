@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ArrowLeft, ArrowRight, BookOpenText, SearchX, SlidersHorizontal, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, SearchX, SlidersHorizontal, X } from 'lucide-react';
 import { search, stats, cleanParams, formatNumber, type SearchParams } from '../../lib/dictionary';
 import { EntryCard, JoinBanner } from '../../components/cards';
 import { Search } from '../../components/search';
@@ -30,14 +30,8 @@ export default async function Dictionary({
   return (
     <div className="container directory-page">
       <div className="page-intro">
-        <span className="eyebrow">
-          <BookOpenText size={15} /> Um património de palavras
-        </span>
-        <h1>{params.q ? `À procura de “${params.q}”` : 'Todas as palavras têm lugar aqui.'}</h1>
-        <p>
-          {formatNumber(numbers.total)} verbetes de calão, expressões populares e outros falares.
-          Encontra o teu.
-        </p>
+        <h1>{params.q ? `Resultados para “${params.q}”` : 'Dicionário'}</h1>
+        <p>{formatNumber(numbers.total)} palavras e expressões. Pesquisa ou explora de A a Z.</p>
       </div>
       <Search hero initial={params.q} id="dictionary-search" />
       <form className="filter-bar" action="/dicionario">

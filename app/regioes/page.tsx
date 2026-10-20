@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { ArrowRight, Globe2, MapPin } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
 import { corpus, entryUrl, stats } from '../../lib/dictionary';
 import { JoinBanner } from '../../components/cards';
 export const metadata: Metadata = { title: 'Regiões & falares' };
@@ -9,18 +9,8 @@ export default async function Regions() {
   return (
     <div className="container regions-page">
       <div className="page-intro">
-        <span className="eyebrow">
-          <Globe2 size={15} /> Geografia das palavras
-        </span>
-        <h1>
-          Uma língua.
-          <br />
-          Tantas maneiras de a dizer.
-        </h1>
-        <p>
-          Da conversa de bairro à expressão da aldeia. Explora os lugares que dão voz ao nosso
-          dicionário.
-        </p>
+        <h1>Regiões e falares</h1>
+        <p>Explora as palavras pelos lugares onde foram recolhidas.</p>
       </div>
       <div className="region-explanation">
         <MapPin size={20} />

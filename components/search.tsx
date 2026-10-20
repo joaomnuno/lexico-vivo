@@ -19,7 +19,6 @@ export function Search({
   const input = useRef<HTMLInputElement>(null);
   const root = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (hero) return;
     const shortcut = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
@@ -79,7 +78,7 @@ export function Search({
           autoComplete="off"
           enterKeyHint="search"
           maxLength={120}
-          placeholder={hero ? 'Que palavra te traz por cá?' : 'Procurar uma palavra ou expressão…'}
+          placeholder="Pesquisar palavra ou expressão…"
           aria-label="Pesquisar no dicionário"
           role="combobox"
           aria-expanded={open && suggestions.length > 0}

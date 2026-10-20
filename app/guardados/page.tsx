@@ -18,14 +18,8 @@ export default function SavedPage() {
     <div className="container saved-page">
       <title>Palavras guardadas · Léxico Vivo</title>
       <div className="page-intro">
-        <span className="eyebrow">
-          <Bookmark size={16} /> A tua coleção de palavras
-        </span>
-        <h1>Há palavras que ficam.</h1>
-        <p>
-          Guarda as expressões que queres voltar a encontrar. Ficam neste navegador, sem precisares
-          de criar conta.
-        </p>
+        <h1>Palavras guardadas</h1>
+        <p>A tua coleção, guardada neste navegador.</p>
       </div>
       {!loaded ? (
         <p>A abrir os teus guardados…</p>

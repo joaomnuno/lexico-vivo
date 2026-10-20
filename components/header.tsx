@@ -1,31 +1,25 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { Bookmark, Globe2 } from 'lucide-react';
+import { Bookmark, BookOpenText, MapPin, Flame, Info } from 'lucide-react';
 import { Brand } from './brand';
 import { Search } from './search';
 import { Contribution } from './interactive';
 
 export function Header() {
   const path = usePathname();
-  const [params, setParams] = useState<URLSearchParams>();
-  useEffect(() => setParams(new URLSearchParams(window.location.search)), [path]);
-  const dictionaryTab =
-    params?.get('kind') === 'expression'
-      ? '/dicionario?kind=expression'
-      : params?.get('register') === 'calão'
-        ? '/dicionario?register=calão'
-        : '/dicionario';
+  const hasPageSearch = path === '/' || path === '/dicionario';
   return (
     <header className="site-header">
       <div className="header-top container">
         <Brand />
-        <Search />
+        {!hasPageSearch && <Search />}
         <div className="header-actions">
-          <span className="language">
-            <Globe2 size={15} /> Português
-          </span>
-          <a href="/guardados" className="icon-button" aria-label="Palavras guardadas">
+          <a
+            href="/guardados"
+            className="icon-button"
+            aria-label="Palavras guardadas"
+            aria-current={path === '/guardados' ? 'page' : undefined}
+          >
             <Bookmark size={20} />
           </a>
           <Contribution compact />
@@ -35,46 +29,28 @@ export function Header() {
         <div className="container nav-row">
           <nav aria-label="Navegação principal">
             {[
-              ['/dicionario', 'Dicionário'],
-              ['/em-alta', 'Em alta'],
-              ['/dicionario?kind=expression', 'Expressões populares'],
-              ['/dicionario?register=calão', 'Calão & gíria'],
-              ['/regioes', 'Regiões'],
-              ['/sobre', 'O projeto'],
-            ].map(([url, label]) => (
-              <a
-                key={url}
-                href={url}
-                className={
-                  (
-                    path === '/dicionario'
-                      ? url === dictionaryTab
-                      : url === '/sobre'
-                        ? path.startsWith('/sobre')
-                        : path === url
-                  )
-                    ? 'active'
-                    : ''
-                }
-                aria-current={
-                  (
-                    path === '/dicionario'
-                      ? url === dictionaryTab
-                      : url === '/sobre'
-                        ? path.startsWith('/sobre')
-                        : path === url
-                  )
-                    ? 'page'
-                    : undefined
-                }
-              >
-                {label}
-              </a>
-            ))}
+              { url: '/dicionario', label: 'Dicionário', Icon: BookOpenText },
+              { url: '/regioes', label: 'Regiões', Icon: MapPin },
+              { url: '/em-alta', label: 'Em alta', Icon: Flame },
+              { url: '/sobre', label: 'O projeto', Icon: Info },
+            ].map(({ url, label, Icon }) => {
+              const active =
+                path === url ||
+                (url === '/sobre' && path.startsWith('/sobre')) ||
+                (url === '/dicionario' && path.startsWith('/verbete/'));
+              return (
+                <a
+                  key={url}
+                  href={url}
+                  className={active ? 'active' : ''}
+                  aria-current={active ? 'page' : undefined}
+                >
+                  <Icon size={15} strokeWidth={1.5} aria-hidden="true" />
+                  {label}
+                </a>
+              );
+            })}
           </nav>
-          <span className="nav-note">
-            <span className="live-dot" /> Um património que se mantém vivo
-          </span>
         </div>
       </div>
     </header>

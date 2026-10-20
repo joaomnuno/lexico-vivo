@@ -8,7 +8,6 @@ export default async function sitemap() {
     '/regioes',
     '/sobre',
     '/sobre/privacidade',
-    '/conjugar',
     ...(await corpus()).entries.map((e) => `/verbete/${e.slug}`),
   ].map((path) => ({ url: `${site}${path}` }));
 }
