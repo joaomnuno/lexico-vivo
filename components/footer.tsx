@@ -19,6 +19,7 @@ export function Footer() {
         <div>
           <h3>Explorar o léxico</h3>
           <a href="/dicionario">Dicionário de A a Z</a>
+          <a href="/em-alta">Em alta: consultas & pesquisas</a>
           <a href="/dicionario?kind=expression">Expressões populares</a>
           <a href="/regioes">Regiões & falares</a>
           <a href="/conjugar">Conjugação verbal</a>

@@ -1,3 +1,5 @@
+import { HotList } from '../components/hot-list';
+import { speechEnabled } from '../lib/audio';
 import {
   ArrowDown,
   ArrowRight,
@@ -81,7 +83,7 @@ export default async function Home() {
                 <ShareButton title={day.headword} />
               </div>
             </div>
-            <Pronounce word={day.headword} />
+            <Pronounce word={day.headword} slug={day.slug} hosted={speechEnabled()} />
             <div className="daily-definitions">
               <div>
                 <h3>O que quer dizer</h3>
@@ -122,6 +124,28 @@ export default async function Home() {
               </p>
               <span>É por isso que estamos aqui.</span>
             </div>
+          </div>
+        </section>
+        <section className="home-hot">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">A curiosidade da comunidade</span>
+              <h2>Em alta esta semana.</h2>
+              <p>As palavras que estamos a descobrir, uma consulta de cada vez.</p>
+            </div>
+            <a className="text-link" href="/em-alta">
+              Ver consultas e pesquisas <ArrowRight size={16} />
+            </a>
+          </div>
+          <div className="home-hot-columns">
+            <section>
+              <h3>Mais vistos</h3>
+              <HotList limit={5} />
+            </section>
+            <section>
+              <h3>Mais pesquisados</h3>
+              <HotList kind="search" limit={5} />
+            </section>
           </div>
         </section>
         <section className="explore-section">

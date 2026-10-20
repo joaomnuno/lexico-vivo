@@ -1,3 +1,5 @@
+import { TrackVisit } from '../../../components/track-visit';
+import { speechEnabled } from '../../../lib/audio';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import {
@@ -10,7 +12,7 @@ import {
   Quote,
   ScrollText,
 } from 'lucide-react';
-import { corpus, daily, entryUrl, featured, findEntry } from '../../../lib/dictionary';
+import { corpus, daily, entryUrl, findEntry } from '../../../lib/dictionary';
 import { Sidebar } from '../../../components/cards';
 import {
   Contribution,
@@ -40,7 +42,7 @@ export async function generateMetadata({
 export default async function EntryPage({ params }: { params: Promise<{ slug: string }> }) {
   const entry = await findEntry((await params).slug);
   if (!entry) notFound();
-  const [{ entries }, day, picks] = await Promise.all([corpus(), daily(), featured()]);
+  const [{ entries }, day] = await Promise.all([corpus(), daily()]);
   const index = entries.findIndex((e) => e.id === entry.id);
   const previous = entries[index - 1],
     next = entries[index + 1];
@@ -63,6 +65,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
   };
   return (
     <div className="container entry-page">
+      {process.env.ACTIVITY_TRACKING !== 'false' && <TrackVisit entryId={entry.id} />}
       <nav className="breadcrumb" aria-label="Localização">
         <a href="/">Início</a>
         <ChevronRight size={12} />
@@ -85,7 +88,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
             </div>
             <h1>{entry.headword}</h1>
             <div className="entry-meta">
-              <Pronounce word={entry.headword} />
+              <Pronounce word={entry.headword} slug={entry.slug} hosted={speechEnabled()} />
               {fields.gram?.length && <em>{fields.gram.join('; ')}</em>}
             </div>
             <div className="entry-tags">
@@ -304,7 +307,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
             </p>
           </div>
         </div>
-        <Sidebar day={day} picks={picks.filter((e) => e.id !== entry.id).slice(0, 4)} />
+        <Sidebar day={day} />
       </div>
       <script
         type="application/ld+json"

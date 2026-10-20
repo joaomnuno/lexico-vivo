@@ -66,7 +66,7 @@ export function Search({
         onSubmit={(e) => {
           if (open && active >= 0 && suggestions[active]) {
             e.preventDefault();
-            window.location.assign(`/verbete/${suggestions[active].slug}`);
+            window.location.assign(`/verbete/${suggestions[active].slug}?via=pesquisa`);
           }
         }}
       >
@@ -139,7 +139,10 @@ export function Search({
         >
           {suggestions.map((entry, i) => (
             <li role="option" id={`${id}-option-${i}`} aria-selected={active === i} key={entry.id}>
-              <a className={active === i ? 'selected' : ''} href={`/verbete/${entry.slug}`}>
+              <a
+                className={active === i ? 'selected' : ''}
+                href={`/verbete/${entry.slug}?via=pesquisa`}
+              >
                 <span>
                   <strong>{entry.headword}</strong>
                   <small>{entry.definitions[0] || 'Verbete em revisão'}</small>

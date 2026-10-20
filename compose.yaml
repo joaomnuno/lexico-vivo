@@ -4,6 +4,9 @@ services:
     restart: unless-stopped
     environment:
       DATABASE_URL: file:/app/storage/lexico.db
+      ACTIVITY_TRACKING: ${ACTIVITY_TRACKING:-true}
+      AZURE_SPEECH_KEY: ${AZURE_SPEECH_KEY:-}
+      AZURE_SPEECH_REGION: ${AZURE_SPEECH_REGION:-westeurope}
       NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
     ports:
       - '${PORT:-3000}:3000'

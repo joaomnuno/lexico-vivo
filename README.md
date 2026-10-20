@@ -21,9 +21,10 @@ Open http://localhost:3000. For production locally, run `npm run build` followed
 - Accent-insensitive search, Fuse.js typo suggestions, keyboard autocomplete, Ctrl/Cmd+K, definition search, `*` and `?` wildcards, pagination, and combined region/register/type/A–Z filters. Wildcards use RE2JS to avoid regex backtracking.
 - Definitions, source examples, linked synonyms, antonyms, original regional labels, etymology and English equivalents where present. Every remaining source field is available too.
 - Previous/next entries, date-based expression of the day, curated discovery, regional browsing, share links, print layout, and browser-local saved entries.
-- Browser speech synthesis explicitly selects a voice matching PT-PT or PT-BR. If that exact variant is unavailable on the device, the player explains this instead of silently substituting another accent. This changes speech only, not the corpus spelling.
+- Optional [hosted MP3 pronunciation](docs/AUDIO.md) uses Azure Speech with dedicated PT-PT/PT-BR voices and persistent caching. Without credentials, browser speech synthesis explicitly selects a voice matching PT-PT or PT-BR. If that exact variant is unavailable on the device, the player explains this instead of silently substituting another accent. This changes speech only, not the corpus spelling.
 - Portuguese verb conjugation with [ablaut](https://github.com/ablaut-dev/ablaut): indicative, subjunctive, imperative, personal infinitive, gerund, participle, and compound forms. WebAssembly stays on the server.
-- Persistent community usage votes and a private contribution queue with editorial approval through a CLI. Votes are deduplicated per browser identifier; submissions are limited to five per identifier per day. These are lightweight abuse controls, not identity verification.
+- Persistent Yes/No community usage votes, a remove-vote control, and a private contribution queue with editorial approval through a CLI. Votes are deduplicated per browser identifier; submissions are limited to five per identifier per day. These are lightweight abuse controls, not identity verification.
+- **Em alta** ranks real entry views and searches that open entries, with separate 1/7/30-day views. Each browser/entry/day is counted once per activity type. Only published dictionary terms appear; raw queries and visitor identities are not exposed. Records older than 30 days are purged on subsequent activity. Set `ACTIVITY_TRACKING=false` to disable automatic tracking in a preview.
 - Public paginated JSON search/entry API, health endpoint, sitemap, robots.txt, entry metadata, and DefinedTerm structured data.
 - Responsive layouts, semantic HTML, keyboard navigation, focus states, native modal dialogs, reduced-motion support, and automated accessibility checks.
 
@@ -33,7 +34,7 @@ The archives are fully unpacked in `references/` and `data/`. Commit `fbdd0c0` p
 
 The supplied parser reports 948 entries without definitions. Those entries remain visible and explicitly incomplete. All original definitions, fields, ordered sections and PDF page references are imported. Physical extraction lines remain in `data/dicionario.json`; the application links to the structured record for each entry.
 
-This is a dictionary of the supplied slang/idiom corpus. It does not contain Priberam's general-language corpus, its translation service, native pronunciation recordings, validated IPA, syllabification, or automatic conversion between spelling standards. It implements comparable lookup and reading tools where source data supports them. No fake popularity, online-user counts, biography, or regional distribution is displayed.
+This is a dictionary of the supplied slang/idiom corpus. It does not contain Priberam's general-language corpus, its translation service, native pronunciation recordings, validated IPA, syllabification, or automatic conversion between spelling standards. It implements comparable lookup and reading tools where source data supports them. Popularity is based on actual recorded visits and search selections; empty rankings stay empty until activity arrives. No fake counts or regional distribution are displayed.
 
 The original PDF is preserved at `references/dicionario.pdf`. Its title page credits **José João Almeida** and dates this edition to 7 October 2026. Page 2 describes the collaborative collection and credits its contributors. The site honours Almeida on the landing page, in the project biography, in the footer, and on original dictionary entries. Academic sources and the original dictionary are linked from the biography. See [source notes](docs/SOURCES.md).
 
@@ -71,7 +72,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-Tests check the entire import against the original JSON, accents and typo search, wildcard and definition lookup, filters and pagination, irregular conjugation, keyboard autocomplete, persistent saves, duplicate voting, private submissions, missing routes, sitemap/robots, desktop/mobile overflow, and automated WCAG AA rules. Browser tests require a prepared database and production build. They remove their own contributions and votes. Screenshots are in `docs/screenshots/`.
+Tests additionally cover activity deduplication and hosted-audio caching. Tests check the entire import against the original JSON, accents and typo search, wildcard and definition lookup, filters and pagination, irregular conjugation, keyboard autocomplete, persistent saves, duplicate voting, private submissions, missing routes, sitemap/robots, desktop/mobile overflow, and automated WCAG AA rules. Browser tests require a prepared database and production build. They remove their own contributions and votes. Screenshots are in `docs/screenshots/`.
 
 ## Dependencies
 

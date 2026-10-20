@@ -118,7 +118,7 @@ export default async function Dictionary({
       {result.entries.length ? (
         <div className="card-grid results-grid">
           {result.entries.map((entry) => (
-            <EntryCard entry={entry} key={entry.id} />
+            <EntryCard entry={entry} key={entry.id} fromSearch={!!params.q} />
           ))}
         </div>
       ) : (

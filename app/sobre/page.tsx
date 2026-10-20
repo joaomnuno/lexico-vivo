@@ -126,8 +126,10 @@ export default async function About() {
                 como não verificadas. Registar uma expressão não significa endossar o seu uso.
               </li>
               <li>
-                <strong>Leitura acessível:</strong> o áudio usa a síntese de voz do navegador. Não é
-                uma gravação de falantes nativos nem uma transcrição fonética validada.
+                <strong>Leitura acessível:</strong> o áudio é sintetizado. Não é uma gravação de
+                falantes nativos nem uma transcrição fonética validada. Quando o serviço de áudio
+                está ativo, são reproduzidos ficheiros de voz sintetizada em PT-PT ou PT-BR. Sem
+                esse serviço, a leitura usa uma voz da variante escolhida disponível no navegador.
               </li>
               <li>
                 <strong>Grafia fiel:</strong> não convertemos automaticamente entre normas
@@ -188,14 +190,22 @@ export default async function About() {
               sincronizados entre dispositivos.
             </p>
             <p>
-              Quando votas ou envias uma sugestão, um identificador aleatório é guardado num cookie
-              durante um ano para evitar votos repetidos e limitar submissões. Não usamos esse
-              identificador para publicidade.
+              Quando consultas um verbete, votas ou envias uma sugestão, um identificador aleatório
+              é guardado num cookie durante um ano. Permite contar consultas sem duplicar os
+              recarregamentos, gerir o teu voto e limitar submissões. Não é usado para publicidade.
             </p>
             <p>
               As sugestões conservam o texto enviado, o nome opcional, a região opcional, a data e
-              esse identificador. Não envies informações pessoais ou sensíveis nos exemplos. Não
-              usamos análise de tráfego nem cookies publicitários na aplicação.
+              esse identificador. Não envies informações pessoais ou sensíveis nos exemplos. A
+              secção Em alta mostra apenas totais de consultas e pesquisas que abriram verbetes. Não
+              publica identidades nem guarda o texto livre das pesquisas. Os registos de atividade
+              com mais de 30 dias são eliminados quando são registadas novas consultas. Não usamos
+              serviços externos de análise de tráfego nem cookies publicitários.
+            </p>
+            <p>
+              Quando o serviço de áudio está ativo, o texto do verbete é enviado ao Microsoft Azure
+              Speech para gerar a leitura. O ficheiro resultante fica guardado para as reproduções
+              seguintes.
             </p>
           </section>
         </div>

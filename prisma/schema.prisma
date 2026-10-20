@@ -7,21 +7,22 @@ datasource db {
 }
 
 model Entry {
-  id          Int      @id
-  slug        String   @unique
-  headword    String
-  normalized  String
-  definitions Json
-  synonyms    Json
-  fields      Json
-  sections    Json
-  pages       Json
-  region      String   @default("")
-  register    String   @default("")
-  kind        String   @default("word")
-  source      String   @default("original")
-  createdAt   DateTime @default(now())
-  votes       Vote[]
+  id            Int            @id
+  slug          String         @unique
+  headword      String
+  normalized    String
+  definitions   Json
+  synonyms      Json
+  fields        Json
+  sections      Json
+  pages         Json
+  region        String         @default("")
+  register      String         @default("")
+  kind          String         @default("word")
+  source        String         @default("original")
+  createdAt     DateTime       @default(now())
+  activity      Activity[]
+  votes         Vote[]
   contributions Contribution[]
 
   @@index([normalized])
@@ -45,11 +46,23 @@ model Contribution {
 }
 
 model Vote {
-  id        String @id @default(cuid())
-  entryId   Int
-  entry     Entry  @relation(fields: [entryId], references: [id], onDelete: Cascade)
-  clientId  String
-  value     String
+  id       String @id @default(cuid())
+  entryId  Int
+  entry    Entry  @relation(fields: [entryId], references: [id], onDelete: Cascade)
+  clientId String
+  value    String
 
   @@unique([entryId, clientId])
+}
+
+model Activity {
+  id       String @id @default(cuid())
+  entryId  Int
+  entry    Entry  @relation(fields: [entryId], references: [id], onDelete: Cascade)
+  clientId String
+  kind     String
+  day      String
+
+  @@unique([entryId, clientId, kind, day])
+  @@index([day, kind])
 }

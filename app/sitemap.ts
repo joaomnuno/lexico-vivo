@@ -4,6 +4,7 @@ export default async function sitemap() {
   return [
     '/',
     '/dicionario',
+    '/em-alta',
     '/regioes',
     '/sobre',
     '/conjugar',

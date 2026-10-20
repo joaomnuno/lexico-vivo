@@ -36,6 +36,7 @@ export function Header() {
           <nav aria-label="Navegação principal">
             {[
               ['/dicionario', 'Dicionário'],
+              ['/em-alta', 'Em alta'],
               ['/dicionario?kind=expression', 'Expressões populares'],
               ['/dicionario?register=calão', 'Calão & gíria'],
               ['/regioes', 'Regiões'],

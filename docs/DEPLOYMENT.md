@@ -42,6 +42,10 @@ coolship init --build-pack dockerfile --dockerfile Dockerfile --port 3000 --name
 
 Do not use a static build pack: dictionary queries, contributions and votes need the Node server.
 
+## Optional hosted audio
+
+Set `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION` in the application environment to enable cached pronunciation clips. The existing storage volume also preserves MP3 files. See [audio setup](AUDIO.md). Without credentials, exact-variant browser speech remains available.
+
 ## Startup and health
 
 The image starts as an unprivileged `node` user. The application startup applies `prisma migrate deploy`, imports 7,241 records if the database is empty, then starts vinext. Normal redeployments preserve editorial changes and do not reimport the original data.

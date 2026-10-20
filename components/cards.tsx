@@ -1,9 +1,11 @@
-import { ArrowRight, BookOpenText, MapPin, Quote, Sparkles } from 'lucide-react';
+import { ArrowRight, BookOpenText, MapPin, Quote, Sparkles, Flame } from 'lucide-react';
 import { entryUrl, type Entry } from '../lib/dictionary';
 import { SaveButton, Contribution } from './interactive';
 import { regions } from '../lib/normalize';
+import { HotList } from './hot-list';
 
-export function EntryCard({ entry }: { entry: Entry }) {
+export function EntryCard({ entry, fromSearch = false }: { entry: Entry; fromSearch?: boolean }) {
+  const url = entryUrl(entry) + (fromSearch ? '?via=pesquisa' : '');
   return (
     <article className="entry-card">
       <div className="entry-card-top">
@@ -12,7 +14,7 @@ export function EntryCard({ entry }: { entry: Entry }) {
         </span>
         <SaveButton entry={entry} />
       </div>
-      <a className="card-title" href={entryUrl(entry)}>
+      <a className="card-title" href={url}>
         <h3>{entry.headword}</h3>
       </a>
       <p>
@@ -25,7 +27,7 @@ export function EntryCard({ entry }: { entry: Entry }) {
           <MapPin size={12} />
           {entry.fields.local?.join(', ') || 'Região não indicada'}
         </small>
-        <a href={entryUrl(entry)} aria-label={`Consultar ${entry.headword}`}>
+        <a href={url} aria-label={`Consultar ${entry.headword}`}>
           <ArrowRight size={17} />
         </a>
       </div>
@@ -52,7 +54,7 @@ export function JoinBanner() {
     </section>
   );
 }
-export function Sidebar({ day, picks }: { day: Entry; picks: Entry[] }) {
+export function Sidebar({ day }: { day: Entry }) {
   return (
     <aside className="dictionary-sidebar">
       <section className="side-card daily-side">
@@ -76,22 +78,16 @@ export function Sidebar({ day, picks }: { day: Entry; picks: Entry[] }) {
           Descobrir expressão <ArrowRight size={14} />
         </a>
       </section>
-      <section className="side-card">
+      <section className="side-card hot-side">
         <div className="section-mini">
           <span>
-            <BookOpenText size={14} /> À descoberta
+            <Flame size={14} /> Em alta esta semana
           </span>
         </div>
-        <ol className="discovery-list">
-          {picks.map((e) => (
-            <li key={e.id}>
-              <a href={entryUrl(e)}>
-                <strong>{e.headword}</strong>
-                <small>{e.definitions[0]?.replace(/^◦/, '')}</small>
-              </a>
-            </li>
-          ))}
-        </ol>
+        <HotList />
+        <a className="text-link" href="/em-alta">
+          Ver consultas e pesquisas
+        </a>
       </section>
       <section className="side-card region-side">
         <div className="section-mini">

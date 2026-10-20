@@ -85,7 +85,16 @@ export function PrintButton() {
     </button>
   );
 }
-export function Pronounce({ word }: { word: string }) {
+export function Pronounce({
+  word,
+  slug,
+  hosted = false,
+}: {
+  word: string;
+  slug: string;
+  hosted?: boolean;
+}) {
+  const player = useRef<HTMLAudioElement | null>(null);
   const [voice, setVoice] = useState('pt-PT');
   const [speaking, setSpeaking] = useState(false);
   const [message, setMessage] = useState('');
@@ -93,6 +102,11 @@ export function Pronounce({ word }: { word: string }) {
     window.speechSynthesis?.getVoices();
     return () => {
       window.speechSynthesis?.cancel();
+      if (player.current) {
+        player.current.onended = player.current.onerror = null;
+        player.current.pause();
+        player.current.src = '';
+      }
     };
   }, []);
   return (
@@ -101,7 +115,27 @@ export function Pronounce({ word }: { word: string }) {
         className="sound-button"
         aria-label={`Ouvir ${word}`}
         disabled={speaking}
-        onClick={() => {
+        onClick={async () => {
+          setMessage('');
+          if (hosted) {
+            const audio = new Audio(`/api/audio/${encodeURIComponent(slug)}?variant=${voice}`);
+            player.current = audio;
+            audio.onended = () => setSpeaking(false);
+            const failed = () => {
+              setSpeaking(false);
+              setMessage(
+                'Não foi possível reproduzir o áudio. Tenta novamente dentro de instantes.',
+              );
+            };
+            audio.onerror = failed;
+            setSpeaking(true);
+            try {
+              await audio.play();
+            } catch {
+              failed();
+            }
+            return;
+          }
           if (!('speechSynthesis' in window)) {
             setMessage('Este navegador não suporta leitura em voz alta.');
             return;
@@ -136,7 +170,12 @@ export function Pronounce({ word }: { word: string }) {
         <Volume2 size={17} />
       </button>
       <span>Ouvir a expressão</span>
-      <select aria-label="Variante da voz" value={voice} onChange={(e) => setVoice(e.target.value)}>
+      <select
+        aria-label="Variante da voz"
+        value={voice}
+        disabled={speaking}
+        onChange={(e) => setVoice(e.target.value)}
+      >
         <option value="pt-PT">PT-PT</option>
         <option value="pt-BR">PT-BR</option>
       </select>
@@ -307,7 +346,7 @@ export function Contribution({
   );
 }
 export function Vote({ entryId }: { entryId: number }) {
-  const [counts, setCounts] = useState({ yes: 0, rare: 0, current: '' });
+  const [counts, setCounts] = useState({ yes: 0, no: 0, current: '' });
   const [message, setMessage] = useState('');
   const [pending, setPending] = useState(false);
   useEffect(() => {
@@ -317,16 +356,19 @@ export function Vote({ entryId }: { entryId: number }) {
       .catch(() => {});
   }, [entryId]);
   const vote = async (value: string) => {
+    const removing = !value || counts.current === value;
     setPending(true);
     try {
       const response = await fetch(`/api/votes/${entryId}`, {
-        method: 'POST',
+        method: removing ? 'DELETE' : 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ value }),
+        ...(removing ? {} : { body: JSON.stringify({ value }) }),
       });
       if (!response.ok) throw new Error();
       setCounts(await response.json());
-      setMessage('Obrigado por partilhares o uso na tua terra.');
+      setMessage(
+        removing ? 'O teu voto foi retirado.' : 'Obrigado por partilhares o uso na tua terra.',
+      );
     } catch {
       setMessage('Não foi possível registar. Tenta novamente.');
     } finally {
@@ -351,11 +393,16 @@ export function Vote({ entryId }: { entryId: number }) {
         <button
           className="button secondary"
           disabled={pending}
-          aria-pressed={counts.current === 'rare'}
-          onClick={() => vote('rare')}
+          aria-pressed={counts.current === 'no'}
+          onClick={() => vote('no')}
         >
-          <ThumbsDown size={15} /> Raramente ({counts.rare})
+          <ThumbsDown size={15} /> Não ({counts.no})
         </button>
+        {counts.current && (
+          <button className="text-button" disabled={pending} onClick={() => vote('')}>
+            Retirar o meu voto
+          </button>
+        )}
       </div>
       <p className="vote-message" role="status">
         {message}

@@ -4,6 +4,7 @@ import { db } from '../lib/db';
 
 const testClients = new Set<string>();
 test.afterAll(async () => {
+  await db.activity.deleteMany({ where: { clientId: { in: [...testClients] } } });
   await db.vote.deleteMany({ where: { clientId: { in: [...testClients] } } });
   await db.contribution.deleteMany({ where: { clientId: { in: [...testClients] } } });
   await db.$disconnect();
@@ -59,13 +60,37 @@ test('votes persist without duplicates; suggestions remain private and require r
   );
   const cookie = (await context.cookies()).find((c) => c.name === 'lv-reader')!;
   testClients.add(cookie.value);
-  const count = await db.vote.count({ where: { clientId: cookie.value } });
+  expect(await db.vote.count({ where: { clientId: cookie.value } })).toBe(1);
   await page.getByRole('button', { name: /^Sim \(/ }).click();
-  expect(await db.vote.count({ where: { clientId: cookie.value } })).toBe(count);
-  await page.reload();
+  await expect(page.locator('.vote-message')).toContainText('O teu voto foi retirado.');
+  expect(await db.vote.count({ where: { clientId: cookie.value } })).toBe(0);
+  await page.getByRole('button', { name: /^Sim \(/ }).click();
   await expect(page.getByRole('button', { name: /^Sim \(/ })).toHaveAttribute(
     'aria-pressed',
     'true',
+  );
+  await page.getByRole('button', { name: /^Não \(/ }).click();
+  await expect(page.getByRole('button', { name: /^Não \(/ })).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  );
+  expect(await db.vote.count({ where: { clientId: cookie.value } })).toBe(1);
+  await page.reload();
+  await expect(page.getByRole('button', { name: /^Não \(/ })).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  );
+  await page.getByRole('button', { name: 'Retirar o meu voto' }).click();
+  await expect(page.locator('.vote-message')).toContainText('O teu voto foi retirado.');
+  expect(await db.vote.count({ where: { clientId: cookie.value } })).toBe(0);
+  await page.reload();
+  await expect(page.getByRole('button', { name: /^Sim \(/ })).toHaveAttribute(
+    'aria-pressed',
+    'false',
+  );
+  await expect(page.getByRole('button', { name: /^Não \(/ })).toHaveAttribute(
+    'aria-pressed',
+    'false',
   );
   await page.locator('.entry-source').getByRole('button', { name: 'Sugerir correção' }).click();
   const dialog = page.getByRole('dialog');
@@ -80,6 +105,40 @@ test('votes persist without duplicates; suggestions remain private and require r
   await page.reload();
   await expect(page.locator('.definitions')).toContainText('estar mal disposto e zangado');
 });
+test('Em alta exposes real aggregate activity without visitor identities', async ({
+  page,
+  context,
+  request,
+}) => {
+  await page.goto('/verbete/abacaxi');
+  await page.evaluate(async () => {
+    const response = await fetch('/api/activity', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ entryId: 2, searched: true }),
+    });
+    if (!response.ok) throw Error('Activity was not recorded');
+  });
+  const cookie = (await context.cookies()).find((c) => c.name === 'lv-reader')!;
+  testClients.add(cookie.value);
+  try {
+    await page.goto('/em-alta?tipo=search&dias=1');
+    await expect(page.locator('.hot-ranking')).toContainText('abacaxi');
+    const payload = await (await request.get('/api/hot?kind=search&days=1')).json();
+    expect(
+      payload.entries.some(
+        (entry: { headword: string; count: number }) =>
+          entry.headword === 'abacaxi' && entry.count > 0,
+      ),
+    ).toBe(true);
+    expect(JSON.stringify(payload)).not.toContain(cookie.value);
+    expect((await request.get('/api/audio/abacaxi?variant=invalid')).status()).toBe(400);
+    expect((await request.get('/api/audio/not-a-word')).status()).toBe(404);
+    expect((await request.get('/api/audio/abacaxi')).status()).toBe(503);
+  } finally {
+    await db.activity.deleteMany({ where: { clientId: cookie.value } });
+  }
+});
 test('desktop and mobile layouts stay within viewport', async ({ page }) => {
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
@@ -88,6 +147,7 @@ test('desktop and mobile layouts stay within viewport', async ({ page }) => {
       '/verbete/estar-com-os-azeites',
       '/dicionario?region=brasil',
       '/regioes',
+      '/em-alta',
       '/conjugar?verbo=ser',
       '/sobre',
     ]) {
@@ -113,6 +173,7 @@ test('key pages meet automated WCAG AA checks', async ({ page }) => {
     '/conjugar?verbo=ser',
     '/sobre',
     '/regioes',
+    '/em-alta',
     '/api',
     '/guardados',
   ]) {
