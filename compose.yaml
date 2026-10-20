@@ -1,0 +1,14 @@
+services:
+  lexico:
+    build: .
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: file:/app/storage/lexico.db
+      NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:3000}
+    ports:
+      - '${PORT:-3000}:3000'
+    volumes:
+      - lexico-data:/app/storage
+    init: true
+volumes:
+  lexico-data:
